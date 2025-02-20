@@ -19,11 +19,10 @@ file_path = 'https://raw.githubusercontent.com/AskSalomon/DATA-205/refs/heads/ma
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.DEBUG)
 
-def load_and_prepare_data(file_path, selected_crime):
+def load_and_prepare_data(selected_crime):
         gdf = gpd.read_file(file_path , 
         driver='TopoJSON')
-         
-        logger.debug(f"Available columns: {list(gdf.columns)}")
+        geo = alt.topo_feature(file_path, feature = 'data')
   
         if selected_crime not in gdf.columns:
             logger.error(f"Column '{selected_crime}' not found in data")
@@ -32,9 +31,9 @@ def load_and_prepare_data(file_path, selected_crime):
         crime_col = f'crime_{selected_crime}'
         dispatch_col = f'dispatch_{selected_crime}'
     
-        return gdf, crime_col, dispatch_col
+        return gdf, crime_col, dispatch_col, geo
     
-def create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col):
+def create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col, geo):
 
     try:   
         # Safely calculate min and max
@@ -122,13 +121,13 @@ def create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col):
         # Map
 
         # Base Layer
-        base = alt.Chart(gdf).mark_geoshape(
+        base = alt.Chart(geo).mark_geoshape(
             stroke='white',
             strokeWidth=1
         ).encode(
         ).properties(
             width=500,
-            height=300
+            height=400
         ).project(
             type='albersUsa' 
         )
@@ -136,11 +135,11 @@ def create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col):
         map_chart = alt.Chart(gdf).mark_geoshape(
             strokeWidth=1.5
         ).encode(
-            alt.Color(selected_crime, title = 'scale'),
+            alt.Color(selected_crime),
             tooltip=[
             selected_crime,'tract'
             ] 
-        )
+        ).add_selection(brush)
         
         # Combine charts
         top_chart = alt.layer(scatter, regression, r_2_annotation)
@@ -172,8 +171,8 @@ def main():
     
     try:
         # Load and prepare data
-        gdf, crime_col, dispatch_col = load_and_prepare_data(file_path, selected_crime)
-        viz = create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col)
+        gdf, crime_col, dispatch_col, geo = load_and_prepare_data(selected_crime)
+        viz = create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col, geo)
 
         st.altair_chart(viz, use_container_width=True)
         
