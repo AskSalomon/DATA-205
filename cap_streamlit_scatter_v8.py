@@ -1,5 +1,4 @@
 
-
 from pathlib import Path
 import streamlit as st
 import pandas as pd
@@ -14,8 +13,8 @@ from sklearn.linear_model import LinearRegression
 
 
 MC_CENTER = [39.1547, -77.2405]
-file_path = Path('/Users/gimle/DATA-205-SETS/capstone_streamlit_scattermap.csv')
-
+#file_path = Path('/Users/gimle/DATA-205-SETS/capstone_streamlit_scattermap.json')
+file_path = "https://raw.githubusercontent.com/AskSalomon/DATA-205/refs/heads/main/capstone_streamlit_scattermap.json"
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.DEBUG)
 
@@ -24,22 +23,14 @@ logging.basicConfig(level=logging.DEBUG)
 def load_and_prepare_data(file_path, selected_crime):
 
     try:
+     
         # DATA
-        df = pd.read_csv(file_path)
-        gdf = gpd.GeoDataFrame(df, geometry=gpd.GeoSeries.from_wkt(df['geometry']))
-        gdf.set_crs(epsg=4326, inplace=True)
+        gdf = gpd.read_file(file_path)
 
-        gdf['geometry'] = gdf['geometry'].apply(lambda x: gpd.GeoSeries([x]).__geo_interface__['features'][0]['geometry'])
-        
-        
         crime_col = f'crime_{selected_crime}'
         dispatch_col = f'dispatch_{selected_crime}'
-        gdf['total_incidents'] = gdf[crime_col] + gdf[dispatch_col]
-        gdf['total_incidents'] = gdf['total_incidents'].replace(0, 1)
-        gdf['crime_prop'] = gdf[crime_col] / gdf['total_incidents']
-        gdf['dispatch_prop'] = gdf[dispatch_col] / gdf['total_incidents']
-        gdf['color_value'] = (gdf['crime_prop'] - gdf['dispatch_prop']).fillna(0)
-        
+
+
         return gdf, crime_col, dispatch_col
     except Exception as e:
         logger.error(f"Error loading data: {str(e)}")
@@ -62,8 +53,8 @@ def create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col):
                    scale=alt.Scale(zero=True)),
             color=alt.condition(
                 brush,
-                alt.Color('color_value:Q', scale=alt.Scale(
-                    domain=[gdf['color_value'].min(), 0, gdf['color_value'].max()],
+                alt.Color(f'{selected_crime}:Q', scale=alt.Scale(
+                    domain=[gdf[selected_crime].min(), 0, gdf[selected_crime].max()],
                     range=['rgba(255,0,0,0.6)', 'rgba(0,0,255,0.6)']
                 )),
                 alt.value('lightgray')
@@ -72,8 +63,8 @@ def create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col):
                 alt.Tooltip('tract', title='Census Tract'),
                 alt.Tooltip(crime_col, title='Crime Reports', format=','),
                 alt.Tooltip(dispatch_col, title='Dispatch Reports', format=','),
-                alt.Tooltip('crime_prop', title='Crime %', format='.1%'),
-                alt.Tooltip('dispatch_prop', title='Dispatch %', format='.1%')
+                #alt.Tooltip('crime_prop', title='Crime %', format='.1%'),
+                #alt.Tooltip('dispatch_prop', title='Dispatch %', format='.1%')
             ]
         ).properties(
             width=500,
@@ -125,32 +116,32 @@ def create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col):
         
         
         # Map
-        map_chart = alt.Chart(gdf).mark_geoshape(
-            stroke = 'white',
-            strokeWidth=1.5
+
+        # Base Layer
+        base = alt.Chart(gdf).mark_geoshape(
+            stroke='white',
+            strokeWidth=1
         ).encode(
-            fill=alt.condition(
-                brush,
-                'color_value:Q',
-                alt.value('lightgray')
-            ),
-            tooltip=[
-                alt.Tooltip('tract:N', title='Census Tract'),
-                alt.Tooltip('crime_prop:Q', title='Crime %', format='.1%'),
-                alt.Tooltip('dispatch_prop:Q', title='Dispatch %', format='.1%')
-            ]
         ).properties(
             width=500,
-            height=300,
-            title= f"Geographic Distribution - {selected_crime.title()}"
+            height=300
         ).project(
             type='albersUsa' 
         )
-        map_chart = til.add_tiles(map_chart, zoom = 10)
+
+        map_chart = alt.Chart(gdf).mark_geoshape(
+            strokeWidth=1.5
+        ).encode(
+            alt.Color(selected_crime, 
+                scale=alt.Scale(scheme='redblue'), title = 'scale'),
+            tooltip=[
+            selected_crime,'tract'
+            ] 
+        )
         
         # Combine charts
         top_chart = alt.layer(scatter, regression, r_2_annotation)
-        bottom_chart = alt.layer(map_chart) 
+        bottom_chart = alt.layer(base + map_chart) 
         final_viz = alt.vconcat(bottom_chart, top_chart)
 
         return final_viz   
