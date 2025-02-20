@@ -9,48 +9,52 @@ import logging
 import altair_tiles as til
 from sklearn.metrics import r2_score
 from sklearn.linear_model import LinearRegression
-
+import json
+from shapely.geometry import shape
 
 
 MC_CENTER = [39.1547, -77.2405]
-#file_path = Path('/Users/gimle/DATA-205-SETS/capstone_streamlit_scattermap.json')
-file_path = "https://raw.githubusercontent.com/AskSalomon/DATA-205/refs/heads/main/capstone_streamlit_scattermap.json"
+# file_path = Path('/Users/gimle/DATA-205-SETS/capstone_streamlit_scattermap.json')
+file_path = 'https://raw.githubusercontent.com/AskSalomon/DATA-205/refs/heads/main/capstone_streamlit_scattermap_topo.json'
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.DEBUG)
 
-
-
 def load_and_prepare_data(file_path, selected_crime):
-
-    try:
-     
-        # DATA
-        gdf = gpd.read_file(file_path)
-
+        gdf = gpd.read_file(file_path , 
+        driver='TopoJSON')
+         
+        logger.debug(f"Available columns: {list(gdf.columns)}")
+  
+        if selected_crime not in gdf.columns:
+            logger.error(f"Column '{selected_crime}' not found in data")
+            raise ValueError(f"Column '{selected_crime}' naaaahh ")
+            
         crime_col = f'crime_{selected_crime}'
         dispatch_col = f'dispatch_{selected_crime}'
-
-
+    
         return gdf, crime_col, dispatch_col
-    except Exception as e:
-        logger.error(f"Error loading data: {str(e)}")
-        raise
-
+    
 def create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col):
 
-    try:
-    
+    try:   
+        # Safely calculate min and max
+        min_val = gdf[selected_crime].min()
+        max_val = gdf[selected_crime].max()
+        
+        # If min equals max, adjust to prevent scale issues
+        if min_val == max_val:
+            min_val = min_val - 0.1
+            max_val = max_val + 0.1
+        
         # altair brush 
         brush = alt.selection_interval(name='brush')
         
         # Scatterplot with brush 
         scatter = alt.Chart(gdf).mark_circle(size=60).encode(
             x=alt.X(dispatch_col,
-                   title=f"Dispatches - {selected_crime.title()}",
-                   scale=alt.Scale(zero=True)),
+                   title=f"Dispatches - {selected_crime.title()}"),
             y=alt.Y(crime_col,
-                   title=f"Crime Reports - {selected_crime.title()}",
-                   scale=alt.Scale(zero=True)),
+                   title=f"Crime Reports - {selected_crime.title()}"),
             color=alt.condition(
                 brush,
                 alt.Color(f'{selected_crime}:Q', scale=alt.Scale(
@@ -132,8 +136,7 @@ def create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col):
         map_chart = alt.Chart(gdf).mark_geoshape(
             strokeWidth=1.5
         ).encode(
-            alt.Color(selected_crime, 
-                scale=alt.Scale(scheme='redblue'), title = 'scale'),
+            alt.Color(selected_crime, title = 'scale'),
             tooltip=[
             selected_crime,'tract'
             ] 
