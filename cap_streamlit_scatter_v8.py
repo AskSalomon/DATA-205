@@ -14,7 +14,6 @@ from shapely.geometry import shape
 
 
 MC_CENTER = [39.1547, -77.2405]
-# file_path = Path('/Users/gimle/DATA-205-SETS/capstone_streamlit_scattermap.json')
 file_path = 'https://raw.githubusercontent.com/AskSalomon/DATA-205/refs/heads/main/capstone_streamlit_scattermap_topo.json'
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.DEBUG)
@@ -36,20 +35,21 @@ def load_and_prepare_data(selected_crime):
 def create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col, geo):
 
     try:   
-        # Safely calculate min and max
         min_val = gdf[selected_crime].min()
         max_val = gdf[selected_crime].max()
         
-        # If min equals max, adjust to prevent scale issues
         if min_val == max_val:
             min_val = min_val - 0.1
             max_val = max_val + 0.1
         
         # altair brush 
-        brush = alt.selection_interval(name='brush')
+        brush = alt.selection_interval(
+            name='brush',
+            encodings=['x', 'y'],  
+        )
         
         # Scatterplot with brush 
-        scatter = alt.Chart(gdf).mark_circle(size=60).encode(
+        scatter = alt.Chart(gdf).mark_point(filled=True).encode(
             x=alt.X(dispatch_col,
                    title=f"Dispatches - {selected_crime.title()}"),
             y=alt.Y(crime_col,
@@ -62,6 +62,8 @@ def create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col, ge
                 )),
                 alt.value('lightgray')
             ),
+            size=alt.Size('population:Q', scale=alt.Scale(range=[10, 300])),
+            detail = 'tract:N',
             tooltip=[
                 alt.Tooltip('tract', title='Census Tract'),
                 alt.Tooltip(crime_col, title='Crime Reports', format=','),
@@ -70,11 +72,17 @@ def create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col, ge
                 #alt.Tooltip('dispatch_prop', title='Dispatch %', format='.1%')
             ]
         ).properties(
-            width=500,
-            height=300,
-            title=f"Crime vs Dispatch Reports - {selected_crime.title()}"
+            width=300,
+            height=200,
+            title=f"Scatter plot of crime reports against dispatches : {selected_crime.title()}"
         ).add_selection(brush)
 
+        lookup_data = alt.LookupData(
+            gdf, 
+            key='tract:N',
+            fields=['tract', selected_crime]
+        )
+        
         # Line of Regression
         X = gdf[[dispatch_col]]
         y = gdf[crime_col]
@@ -117,33 +125,44 @@ def create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col, ge
             text='text:N'
         )
         
-        
         # Map
-
-        # Base Layer
+        # Base Layer, not currently being used 
         base = alt.Chart(geo).mark_geoshape(
             stroke='white',
             strokeWidth=1
         ).encode(
         ).properties(
-            width=500,
-            height=400
+            width=300,
+            height=500
         ).project(
             type='albersUsa' 
         )
-
-        map_chart = alt.Chart(gdf).mark_geoshape(
-            strokeWidth=1.5
+        # Map Layer
+        map_chart = alt.Chart(geo).mark_geoshape(
+            strokeWidth=2
         ).encode(
-            alt.Color(selected_crime),
+            color=alt.condition(
+                brush,
+                alt.Color(f'properties.{selected_crime}:Q', scale=alt.Scale(
+                    domain=[-1, 0, 1],
+                    range=['rgb(255,0,0)', 'rgb(255,255,255)', 'rgb(0,0,255)']
+                )),
+                alt.value('lightgray')
+            ),
             tooltip=[
-            selected_crime,'tract'
-            ] 
-        ).add_selection(brush)
+                alt.Tooltip(f'properties.{selected_crime}:Q', title=selected_crime.title()),
+                alt.Tooltip('properties.tract:N', title='Census Tract')
+            ]
+        ).transform_lookup(
+            lookup = 'properties.tract:N',
+            from_=lookup_data
+        )#.transform_filter(
+         #   brush
+        #) 
         
         # Combine charts
         top_chart = alt.layer(scatter, regression, r_2_annotation)
-        bottom_chart = alt.layer(base + map_chart) 
+        bottom_chart = alt.layer(map_chart) # no base layer
         final_viz = alt.vconcat(bottom_chart, top_chart)
 
         return final_viz   
@@ -157,7 +176,7 @@ def main():
         layout="wide",
         initial_sidebar_state="expanded",
     )
-    st.title("Crime vs Dispatch Reports Analysis")
+    st.title("Geographic Comparison of Crime vs Dispatch Data")
     
     # Configurations
     CRIME_TYPES = ['theft', 'drug', 'sexassult', 'parts', 'violent', 'property', 'person']
