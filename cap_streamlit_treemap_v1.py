@@ -12,6 +12,8 @@ def data_loader():
     try:
         file_path = '/Users/gimle/DATA-205/capstone_streamlit_treemap.csv'
         df_treemap = pd.read_csv(file_path)
+        reverse_match_dict = {1 :'Dispatch', 2: 'Crime', 3:'Match'}
+        df_treemap['match_status'] = df_treemap['match_status'].map(reverse_match_dict)
     
         return df_treemap
     except Exception as e:
