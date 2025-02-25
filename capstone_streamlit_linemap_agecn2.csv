@@ -1,0 +1,1099 @@
+month_year,Agency,Crime Name1,count
+2018-06,GPD,Crime Against Person,13
+2018-06,GPD,Crime Against Property,41
+2018-06,GPD,Crime Against Society,27
+2018-06,MCPD,Crime Against Not a Crime,8
+2018-06,MCPD,Crime Against Person,129
+2018-06,MCPD,Crime Against Property,1010
+2018-06,MCPD,Crime Against Society,661
+2018-06,RCPD,Crime Against Not a Crime,2
+2018-06,RCPD,Crime Against Person,19
+2018-06,RCPD,Crime Against Property,115
+2018-06,RCPD,Crime Against Society,115
+2018-06,TPPD,Crime Against Person,11
+2018-06,TPPD,Crime Against Property,61
+2018-06,TPPD,Crime Against Society,25
+2018-07,GPD,Crime Against Not a Crime,3
+2018-07,GPD,Crime Against Property,69
+2018-07,GPD,Crime Against Society,30
+2018-07,MCPD,Crime Against Not a Crime,12
+2018-07,MCPD,Crime Against Person,119
+2018-07,MCPD,Crime Against Property,1038
+2018-07,MCPD,Crime Against Society,669
+2018-07,RCPD,Crime Against Person,24
+2018-07,RCPD,Crime Against Property,88
+2018-07,RCPD,Crime Against Society,119
+2018-07,TPPD,Crime Against Person,6
+2018-07,TPPD,Crime Against Property,34
+2018-07,TPPD,Crime Against Society,23
+2018-08,GPD,Crime Against Not a Crime,1
+2018-08,GPD,Crime Against Person,10
+2018-08,GPD,Crime Against Property,47
+2018-08,GPD,Crime Against Society,45
+2018-08,MCPD,Crime Against Not a Crime,12
+2018-08,MCPD,Crime Against Person,121
+2018-08,MCPD,Crime Against Property,1057
+2018-08,MCPD,Crime Against Society,689
+2018-08,RCPD,Crime Against Not a Crime,2
+2018-08,RCPD,Crime Against Person,35
+2018-08,RCPD,Crime Against Property,97
+2018-08,RCPD,Crime Against Society,118
+2018-08,TPPD,Crime Against Person,6
+2018-08,TPPD,Crime Against Property,35
+2018-08,TPPD,Crime Against Society,36
+2018-09,GPD,Crime Against Not a Crime,3
+2018-09,GPD,Crime Against Person,11
+2018-09,GPD,Crime Against Property,39
+2018-09,GPD,Crime Against Society,36
+2018-09,MCPD,Crime Against Not a Crime,12
+2018-09,MCPD,Crime Against Person,135
+2018-09,MCPD,Crime Against Property,948
+2018-09,MCPD,Crime Against Society,616
+2018-09,RCPD,Crime Against Person,18
+2018-09,RCPD,Crime Against Property,90
+2018-09,RCPD,Crime Against Society,116
+2018-09,TPPD,Crime Against Not a Crime,1
+2018-09,TPPD,Crime Against Person,8
+2018-09,TPPD,Crime Against Property,30
+2018-09,TPPD,Crime Against Society,23
+2018-10,GPD,Crime Against Not a Crime,1
+2018-10,GPD,Crime Against Person,9
+2018-10,GPD,Crime Against Property,27
+2018-10,GPD,Crime Against Society,29
+2018-10,MCPD,Crime Against Not a Crime,13
+2018-10,MCPD,Crime Against Person,139
+2018-10,MCPD,Crime Against Property,961
+2018-10,MCPD,Crime Against Society,700
+2018-10,RCPD,Crime Against Person,25
+2018-10,RCPD,Crime Against Property,76
+2018-10,RCPD,Crime Against Society,100
+2018-10,TPPD,Crime Against Person,8
+2018-10,TPPD,Crime Against Property,46
+2018-10,TPPD,Crime Against Society,26
+2018-11,GPD,Crime Against Not a Crime,3
+2018-11,GPD,Crime Against Person,8
+2018-11,GPD,Crime Against Property,34
+2018-11,GPD,Crime Against Society,39
+2018-11,MCFM,Crime Against Society,2
+2018-11,MCPD,Crime Against Not a Crime,10
+2018-11,MCPD,Crime Against Person,131
+2018-11,MCPD,Crime Against Property,913
+2018-11,MCPD,Crime Against Society,612
+2018-11,MCSO,Crime Against Society,5
+2018-11,RCPD,Crime Against Not a Crime,2
+2018-11,RCPD,Crime Against Person,19
+2018-11,RCPD,Crime Against Property,74
+2018-11,RCPD,Crime Against Society,102
+2018-11,TPPD,Crime Against Person,5
+2018-11,TPPD,Crime Against Property,40
+2018-11,TPPD,Crime Against Society,24
+2018-12,GPD,Crime Against Person,5
+2018-12,GPD,Crime Against Property,50
+2018-12,GPD,Crime Against Society,26
+2018-12,MCPD,Crime Against Not a Crime,8
+2018-12,MCPD,Crime Against Person,117
+2018-12,MCPD,Crime Against Property,975
+2018-12,MCPD,Crime Against Society,613
+2018-12,RCPD,Crime Against Person,33
+2018-12,RCPD,Crime Against Property,80
+2018-12,RCPD,Crime Against Society,115
+2018-12,TPPD,Crime Against Person,8
+2018-12,TPPD,Crime Against Property,40
+2018-12,TPPD,Crime Against Society,27
+2019-01,GPD,Crime Against Person,8
+2019-01,GPD,Crime Against Property,43
+2019-01,GPD,Crime Against Society,28
+2019-01,MCPD,Crime Against Not a Crime,15
+2019-01,MCPD,Crime Against Person,114
+2019-01,MCPD,Crime Against Property,825
+2019-01,MCPD,Crime Against Society,554
+2019-01,RCPD,Crime Against Not a Crime,1
+2019-01,RCPD,Crime Against Person,20
+2019-01,RCPD,Crime Against Property,97
+2019-01,RCPD,Crime Against Society,100
+2019-01,TPPD,Crime Against Not a Crime,1
+2019-01,TPPD,Crime Against Person,4
+2019-01,TPPD,Crime Against Property,34
+2019-01,TPPD,Crime Against Society,17
+2019-02,GPD,Crime Against Not a Crime,1
+2019-02,GPD,Crime Against Person,4
+2019-02,GPD,Crime Against Property,35
+2019-02,GPD,Crime Against Society,23
+2019-02,MCPD,Crime Against Not a Crime,18
+2019-02,MCPD,Crime Against Person,99
+2019-02,MCPD,Crime Against Property,735
+2019-02,MCPD,Crime Against Society,531
+2019-02,RCPD,Crime Against Person,18
+2019-02,RCPD,Crime Against Property,81
+2019-02,RCPD,Crime Against Society,109
+2019-02,TPPD,Crime Against Person,5
+2019-02,TPPD,Crime Against Property,33
+2019-02,TPPD,Crime Against Society,16
+2019-03,GPD,Crime Against Person,7
+2019-03,GPD,Crime Against Property,41
+2019-03,GPD,Crime Against Society,32
+2019-03,MCPD,Crime Against Not a Crime,15
+2019-03,MCPD,Crime Against Person,115
+2019-03,MCPD,Crime Against Property,873
+2019-03,MCPD,Crime Against Society,623
+2019-03,RCPD,Crime Against Not a Crime,1
+2019-03,RCPD,Crime Against Person,16
+2019-03,RCPD,Crime Against Property,95
+2019-03,RCPD,Crime Against Society,104
+2019-03,TPPD,Crime Against Not a Crime,2
+2019-03,TPPD,Crime Against Person,4
+2019-03,TPPD,Crime Against Property,36
+2019-03,TPPD,Crime Against Society,24
+2019-04,GPD,Crime Against Person,5
+2019-04,GPD,Crime Against Property,35
+2019-04,GPD,Crime Against Society,26
+2019-04,MCPD,Crime Against Not a Crime,16
+2019-04,MCPD,Crime Against Person,114
+2019-04,MCPD,Crime Against Property,874
+2019-04,MCPD,Crime Against Society,612
+2019-04,RCPD,Crime Against Not a Crime,1
+2019-04,RCPD,Crime Against Person,22
+2019-04,RCPD,Crime Against Property,95
+2019-04,RCPD,Crime Against Society,87
+2019-04,TPPD,Crime Against Person,1
+2019-04,TPPD,Crime Against Property,31
+2019-04,TPPD,Crime Against Society,37
+2019-05,GPD,Crime Against Not a Crime,1
+2019-05,GPD,Crime Against Person,4
+2019-05,GPD,Crime Against Property,48
+2019-05,GPD,Crime Against Society,22
+2019-05,MCFM,Crime Against Society,3
+2019-05,MCPD,Crime Against Not a Crime,20
+2019-05,MCPD,Crime Against Person,132
+2019-05,MCPD,Crime Against Property,924
+2019-05,MCPD,Crime Against Society,585
+2019-05,RCPD,Crime Against Not a Crime,1
+2019-05,RCPD,Crime Against Person,18
+2019-05,RCPD,Crime Against Property,88
+2019-05,RCPD,Crime Against Society,90
+2019-05,TPPD,Crime Against Person,9
+2019-05,TPPD,Crime Against Property,48
+2019-05,TPPD,Crime Against Society,22
+2019-06,GPD,Crime Against Not a Crime,3
+2019-06,GPD,Crime Against Person,7
+2019-06,GPD,Crime Against Property,35
+2019-06,GPD,Crime Against Society,31
+2019-06,MCPD,Crime Against Not a Crime,18
+2019-06,MCPD,Crime Against Person,130
+2019-06,MCPD,Crime Against Property,863
+2019-06,MCPD,Crime Against Society,508
+2019-06,RCPD,Crime Against Not a Crime,1
+2019-06,RCPD,Crime Against Person,18
+2019-06,RCPD,Crime Against Property,90
+2019-06,RCPD,Crime Against Society,92
+2019-06,TPPD,Crime Against Person,5
+2019-06,TPPD,Crime Against Property,44
+2019-06,TPPD,Crime Against Society,13
+2019-07,GPD,Crime Against Person,4
+2019-07,GPD,Crime Against Property,43
+2019-07,GPD,Crime Against Society,39
+2019-07,MCPD,Crime Against Not a Crime,9
+2019-07,MCPD,Crime Against Person,128
+2019-07,MCPD,Crime Against Property,1020
+2019-07,MCPD,Crime Against Society,549
+2019-07,RCPD,Crime Against Person,19
+2019-07,RCPD,Crime Against Property,114
+2019-07,RCPD,Crime Against Society,83
+2019-07,TPPD,Crime Against Person,3
+2019-07,TPPD,Crime Against Property,39
+2019-07,TPPD,Crime Against Society,14
+2019-08,GPD,Crime Against Person,5
+2019-08,GPD,Crime Against Property,56
+2019-08,GPD,Crime Against Society,22
+2019-08,MCPD,Crime Against Not a Crime,8
+2019-08,MCPD,Crime Against Person,101
+2019-08,MCPD,Crime Against Property,1027
+2019-08,MCPD,Crime Against Society,541
+2019-08,RCPD,Crime Against Not a Crime,1
+2019-08,RCPD,Crime Against Person,22
+2019-08,RCPD,Crime Against Property,114
+2019-08,RCPD,Crime Against Society,81
+2019-08,TPPD,Crime Against Person,3
+2019-08,TPPD,Crime Against Property,50
+2019-08,TPPD,Crime Against Society,40
+2019-09,GPD,Crime Against Person,10
+2019-09,GPD,Crime Against Property,63
+2019-09,GPD,Crime Against Society,29
+2019-09,MCFM,Crime Against Property,1
+2019-09,MCFM,Crime Against Society,1
+2019-09,MCPD,Crime Against Not a Crime,10
+2019-09,MCPD,Crime Against Person,116
+2019-09,MCPD,Crime Against Property,910
+2019-09,MCPD,Crime Against Society,497
+2019-09,RCPD,Crime Against Person,14
+2019-09,RCPD,Crime Against Property,76
+2019-09,RCPD,Crime Against Society,90
+2019-09,TPPD,Crime Against Person,7
+2019-09,TPPD,Crime Against Property,37
+2019-09,TPPD,Crime Against Society,23
+2019-10,GPD,Crime Against Not a Crime,1
+2019-10,GPD,Crime Against Person,10
+2019-10,GPD,Crime Against Property,59
+2019-10,GPD,Crime Against Society,24
+2019-10,MCPD,Crime Against Not a Crime,22
+2019-10,MCPD,Crime Against Person,114
+2019-10,MCPD,Crime Against Property,972
+2019-10,MCPD,Crime Against Society,491
+2019-10,MCSO,Crime Against Society,1
+2019-10,RCPD,Crime Against Not a Crime,2
+2019-10,RCPD,Crime Against Person,21
+2019-10,RCPD,Crime Against Property,102
+2019-10,RCPD,Crime Against Society,85
+2019-10,TPPD,Crime Against Person,7
+2019-10,TPPD,Crime Against Property,48
+2019-10,TPPD,Crime Against Society,35
+2019-11,GPD,Crime Against Not a Crime,1
+2019-11,GPD,Crime Against Person,9
+2019-11,GPD,Crime Against Property,45
+2019-11,GPD,Crime Against Society,21
+2019-11,MCPD,Crime Against Not a Crime,9
+2019-11,MCPD,Crime Against Person,111
+2019-11,MCPD,Crime Against Property,1037
+2019-11,MCPD,Crime Against Society,506
+2019-11,RCPD,Crime Against Not a Crime,3
+2019-11,RCPD,Crime Against Person,23
+2019-11,RCPD,Crime Against Property,86
+2019-11,RCPD,Crime Against Society,101
+2019-11,TPPD,Crime Against Person,7
+2019-11,TPPD,Crime Against Property,44
+2019-11,TPPD,Crime Against Society,23
+2019-12,GPD,Crime Against Person,5
+2019-12,GPD,Crime Against Property,28
+2019-12,GPD,Crime Against Society,21
+2019-12,MCPD,Crime Against Not a Crime,11
+2019-12,MCPD,Crime Against Person,111
+2019-12,MCPD,Crime Against Property,1015
+2019-12,MCPD,Crime Against Society,493
+2019-12,RCPD,Crime Against Not a Crime,1
+2019-12,RCPD,Crime Against Person,20
+2019-12,RCPD,Crime Against Property,87
+2019-12,RCPD,Crime Against Society,105
+2019-12,TPPD,Crime Against Person,4
+2019-12,TPPD,Crime Against Property,44
+2019-12,TPPD,Crime Against Society,18
+2020-01,GPD,Crime Against Not a Crime,1
+2020-01,GPD,Crime Against Person,6
+2020-01,GPD,Crime Against Property,46
+2020-01,GPD,Crime Against Society,17
+2020-01,MCPD,Crime Against Not a Crime,10
+2020-01,MCPD,Crime Against Person,117
+2020-01,MCPD,Crime Against Property,1013
+2020-01,MCPD,Crime Against Society,497
+2020-01,RCPD,Crime Against Not a Crime,1
+2020-01,RCPD,Crime Against Person,15
+2020-01,RCPD,Crime Against Property,79
+2020-01,RCPD,Crime Against Society,116
+2020-01,TPPD,Crime Against Person,5
+2020-01,TPPD,Crime Against Property,67
+2020-01,TPPD,Crime Against Society,21
+2020-02,GPD,Crime Against Person,3
+2020-02,GPD,Crime Against Property,48
+2020-02,GPD,Crime Against Society,15
+2020-02,MCPD,Crime Against Not a Crime,17
+2020-02,MCPD,Crime Against Person,87
+2020-02,MCPD,Crime Against Property,857
+2020-02,MCPD,Crime Against Society,538
+2020-02,RCPD,Crime Against Person,23
+2020-02,RCPD,Crime Against Property,80
+2020-02,RCPD,Crime Against Society,78
+2020-02,TPPD,Crime Against Person,5
+2020-02,TPPD,Crime Against Property,40
+2020-02,TPPD,Crime Against Society,31
+2020-03,GPD,Crime Against Not a Crime,1
+2020-03,GPD,Crime Against Person,6
+2020-03,GPD,Crime Against Property,17
+2020-03,GPD,Crime Against Society,4
+2020-03,MCPD,Crime Against Not a Crime,22
+2020-03,MCPD,Crime Against Person,102
+2020-03,MCPD,Crime Against Property,1010
+2020-03,MCPD,Crime Against Society,445
+2020-03,RCPD,Crime Against Not a Crime,1
+2020-03,RCPD,Crime Against Person,19
+2020-03,RCPD,Crime Against Property,68
+2020-03,RCPD,Crime Against Society,88
+2020-03,TPPD,Crime Against Not a Crime,2
+2020-03,TPPD,Crime Against Person,4
+2020-03,TPPD,Crime Against Property,42
+2020-03,TPPD,Crime Against Society,28
+2020-04,GPD,Crime Against Person,2
+2020-04,GPD,Crime Against Property,6
+2020-04,GPD,Crime Against Society,8
+2020-04,MCPD,Crime Against Not a Crime,13
+2020-04,MCPD,Crime Against Person,86
+2020-04,MCPD,Crime Against Property,875
+2020-04,MCPD,Crime Against Society,258
+2020-04,RCPD,Crime Against Person,10
+2020-04,RCPD,Crime Against Property,28
+2020-04,RCPD,Crime Against Society,48
+2020-04,TPPD,Crime Against Not a Crime,1
+2020-04,TPPD,Crime Against Person,4
+2020-04,TPPD,Crime Against Property,46
+2020-04,TPPD,Crime Against Society,10
+2020-05,GPD,Crime Against Person,1
+2020-05,GPD,Crime Against Property,13
+2020-05,GPD,Crime Against Society,3
+2020-05,MCPD,Crime Against Not a Crime,14
+2020-05,MCPD,Crime Against Person,86
+2020-05,MCPD,Crime Against Property,1016
+2020-05,MCPD,Crime Against Society,317
+2020-05,RCPD,Crime Against Person,25
+2020-05,RCPD,Crime Against Property,89
+2020-05,RCPD,Crime Against Society,81
+2020-05,TPPD,Crime Against Person,4
+2020-05,TPPD,Crime Against Property,48
+2020-05,TPPD,Crime Against Society,19
+2020-06,GPD,Crime Against Person,10
+2020-06,GPD,Crime Against Property,14
+2020-06,GPD,Crime Against Society,17
+2020-06,MCPD,Crime Against Not a Crime,8
+2020-06,MCPD,Crime Against Person,81
+2020-06,MCPD,Crime Against Property,1094
+2020-06,MCPD,Crime Against Society,293
+2020-06,RCPD,Crime Against Person,21
+2020-06,RCPD,Crime Against Property,76
+2020-06,RCPD,Crime Against Society,78
+2020-06,TPPD,Crime Against Person,5
+2020-06,TPPD,Crime Against Property,45
+2020-06,TPPD,Crime Against Society,14
+2020-07,GPD,Crime Against Person,4
+2020-07,GPD,Crime Against Property,14
+2020-07,GPD,Crime Against Society,7
+2020-07,MCPD,Crime Against Not a Crime,7
+2020-07,MCPD,Crime Against Person,96
+2020-07,MCPD,Crime Against Property,1276
+2020-07,MCPD,Crime Against Society,313
+2020-07,RCPD,Crime Against Person,26
+2020-07,RCPD,Crime Against Property,89
+2020-07,RCPD,Crime Against Society,98
+2020-07,TPPD,Crime Against Person,5
+2020-07,TPPD,Crime Against Property,30
+2020-07,TPPD,Crime Against Society,16
+2020-08,GPD,Crime Against Person,5
+2020-08,GPD,Crime Against Property,22
+2020-08,GPD,Crime Against Society,11
+2020-08,MCPD,Crime Against Not a Crime,8
+2020-08,MCPD,Crime Against Person,121
+2020-08,MCPD,Crime Against Property,1242
+2020-08,MCPD,Crime Against Society,290
+2020-08,RCPD,Crime Against Person,16
+2020-08,RCPD,Crime Against Property,79
+2020-08,RCPD,Crime Against Society,77
+2020-08,TPPD,Crime Against Person,1
+2020-08,TPPD,Crime Against Property,45
+2020-08,TPPD,Crime Against Society,16
+2020-09,GPD,Crime Against Person,2
+2020-09,GPD,Crime Against Property,23
+2020-09,GPD,Crime Against Society,24
+2020-09,MCPD,Crime Against Not a Crime,8
+2020-09,MCPD,Crime Against Person,87
+2020-09,MCPD,Crime Against Property,1228
+2020-09,MCPD,Crime Against Society,312
+2020-09,RCPD,Crime Against Not a Crime,1
+2020-09,RCPD,Crime Against Person,24
+2020-09,RCPD,Crime Against Property,83
+2020-09,RCPD,Crime Against Society,96
+2020-09,TPPD,Crime Against Person,3
+2020-09,TPPD,Crime Against Property,39
+2020-09,TPPD,Crime Against Society,18
+2020-10,GPD,Crime Against Not a Crime,1
+2020-10,GPD,Crime Against Person,6
+2020-10,GPD,Crime Against Property,25
+2020-10,GPD,Crime Against Society,19
+2020-10,MCPD,Crime Against Not a Crime,10
+2020-10,MCPD,Crime Against Person,78
+2020-10,MCPD,Crime Against Property,1122
+2020-10,MCPD,Crime Against Society,325
+2020-10,RCPD,Crime Against Not a Crime,4
+2020-10,RCPD,Crime Against Person,18
+2020-10,RCPD,Crime Against Property,65
+2020-10,RCPD,Crime Against Society,86
+2020-10,TPPD,Crime Against Person,5
+2020-10,TPPD,Crime Against Property,27
+2020-10,TPPD,Crime Against Society,8
+2020-11,GPD,Crime Against Person,5
+2020-11,GPD,Crime Against Property,29
+2020-11,GPD,Crime Against Society,23
+2020-11,MCPD,Crime Against Not a Crime,13
+2020-11,MCPD,Crime Against Person,84
+2020-11,MCPD,Crime Against Property,1129
+2020-11,MCPD,Crime Against Society,279
+2020-11,RCPD,Crime Against Person,16
+2020-11,RCPD,Crime Against Property,63
+2020-11,RCPD,Crime Against Society,68
+2020-11,TPPD,Crime Against Not a Crime,1
+2020-11,TPPD,Crime Against Person,3
+2020-11,TPPD,Crime Against Property,21
+2020-11,TPPD,Crime Against Society,16
+2020-12,GPD,Crime Against Person,6
+2020-12,GPD,Crime Against Property,32
+2020-12,GPD,Crime Against Society,16
+2020-12,MCPD,Crime Against Not a Crime,7
+2020-12,MCPD,Crime Against Person,65
+2020-12,MCPD,Crime Against Property,1096
+2020-12,MCPD,Crime Against Society,289
+2020-12,RCPD,Crime Against Person,27
+2020-12,RCPD,Crime Against Property,80
+2020-12,RCPD,Crime Against Society,60
+2020-12,TPPD,Crime Against Not a Crime,1
+2020-12,TPPD,Crime Against Property,21
+2020-12,TPPD,Crime Against Society,18
+2021-01,GPD,Crime Against Person,6
+2021-01,GPD,Crime Against Property,21
+2021-01,GPD,Crime Against Society,12
+2021-01,MCPD,Crime Against Not a Crime,7
+2021-01,MCPD,Crime Against Person,75
+2021-01,MCPD,Crime Against Property,941
+2021-01,MCPD,Crime Against Society,270
+2021-01,RCPD,Crime Against Not a Crime,1
+2021-01,RCPD,Crime Against Person,19
+2021-01,RCPD,Crime Against Property,52
+2021-01,RCPD,Crime Against Society,74
+2021-01,TPPD,Crime Against Property,43
+2021-01,TPPD,Crime Against Society,7
+2021-02,GPD,Crime Against Not a Crime,1
+2021-02,GPD,Crime Against Person,6
+2021-02,GPD,Crime Against Property,22
+2021-02,GPD,Crime Against Society,15
+2021-02,MCPD,Crime Against Not a Crime,8
+2021-02,MCPD,Crime Against Person,52
+2021-02,MCPD,Crime Against Property,748
+2021-02,MCPD,Crime Against Society,221
+2021-02,RCPD,Crime Against Person,18
+2021-02,RCPD,Crime Against Property,55
+2021-02,RCPD,Crime Against Society,58
+2021-02,TPPD,Crime Against Not a Crime,2
+2021-02,TPPD,Crime Against Person,7
+2021-02,TPPD,Crime Against Property,34
+2021-02,TPPD,Crime Against Society,12
+2021-03,GPD,Crime Against Person,6
+2021-03,GPD,Crime Against Property,16
+2021-03,GPD,Crime Against Society,13
+2021-03,MCFM,Crime Against Society,1
+2021-03,MCPD,Crime Against Not a Crime,6
+2021-03,MCPD,Crime Against Person,70
+2021-03,MCPD,Crime Against Property,897
+2021-03,MCPD,Crime Against Society,249
+2021-03,RCPD,Crime Against Person,20
+2021-03,RCPD,Crime Against Property,63
+2021-03,RCPD,Crime Against Society,74
+2021-03,TPPD,Crime Against Person,5
+2021-03,TPPD,Crime Against Property,35
+2021-03,TPPD,Crime Against Society,16
+2021-04,GPD,Crime Against Person,7
+2021-04,GPD,Crime Against Property,18
+2021-04,GPD,Crime Against Society,19
+2021-04,MCPD,Crime Against Not a Crime,6
+2021-04,MCPD,Crime Against Person,78
+2021-04,MCPD,Crime Against Property,889
+2021-04,MCPD,Crime Against Society,264
+2021-04,OTHR,Crime Against Society,2
+2021-04,RCPD,Crime Against Not a Crime,2
+2021-04,RCPD,Crime Against Person,22
+2021-04,RCPD,Crime Against Property,37
+2021-04,RCPD,Crime Against Society,57
+2021-04,TPPD,Crime Against Person,4
+2021-04,TPPD,Crime Against Property,30
+2021-04,TPPD,Crime Against Society,25
+2021-05,GPD,Crime Against Person,7
+2021-05,GPD,Crime Against Property,16
+2021-05,GPD,Crime Against Society,11
+2021-05,MCPD,Crime Against Not a Crime,5
+2021-05,MCPD,Crime Against Person,83
+2021-05,MCPD,Crime Against Property,1056
+2021-05,MCPD,Crime Against Society,274
+2021-05,OTHR,Crime Against Society,1
+2021-05,RCPD,Crime Against Person,27
+2021-05,RCPD,Crime Against Property,70
+2021-05,RCPD,Crime Against Society,61
+2021-05,TPPD,Crime Against Person,4
+2021-05,TPPD,Crime Against Property,37
+2021-05,TPPD,Crime Against Society,12
+2021-06,GPD,Crime Against Person,6
+2021-06,GPD,Crime Against Property,27
+2021-06,GPD,Crime Against Society,15
+2021-06,MCFM,Crime Against Property,1
+2021-06,MCFM,Crime Against Society,1
+2021-06,MCPD,Crime Against Not a Crime,9
+2021-06,MCPD,Crime Against Person,89
+2021-06,MCPD,Crime Against Property,1038
+2021-06,MCPD,Crime Against Society,281
+2021-06,RCPD,Crime Against Not a Crime,1
+2021-06,RCPD,Crime Against Person,27
+2021-06,RCPD,Crime Against Property,80
+2021-06,RCPD,Crime Against Society,58
+2021-06,TPPD,Crime Against Person,4
+2021-06,TPPD,Crime Against Property,39
+2021-06,TPPD,Crime Against Society,12
+2021-07,GPD,Crime Against Not a Crime,1
+2021-07,GPD,Crime Against Person,5
+2021-07,GPD,Crime Against Property,28
+2021-07,GPD,Crime Against Society,17
+2021-07,MCPD,Crime Against Not a Crime,8
+2021-07,MCPD,Crime Against Person,108
+2021-07,MCPD,Crime Against Property,1077
+2021-07,MCPD,Crime Against Society,329
+2021-07,OTHR,Crime Against Society,1
+2021-07,RCPD,Crime Against Not a Crime,2
+2021-07,RCPD,Crime Against Person,30
+2021-07,RCPD,Crime Against Property,87
+2021-07,RCPD,Crime Against Society,68
+2021-07,TPPD,Crime Against Person,2
+2021-07,TPPD,Crime Against Property,40
+2021-07,TPPD,Crime Against Society,9
+2021-08,GPD,Crime Against Person,3
+2021-08,GPD,Crime Against Property,41
+2021-08,GPD,Crime Against Society,11
+2021-08,MCPD,Crime Against Not a Crime,4
+2021-08,MCPD,Crime Against Person,92
+2021-08,MCPD,Crime Against Property,1023
+2021-08,MCPD,Crime Against Society,326
+2021-08,RCPD,Crime Against Person,12
+2021-08,RCPD,Crime Against Property,71
+2021-08,RCPD,Crime Against Society,74
+2021-08,TPPD,Crime Against Person,4
+2021-08,TPPD,Crime Against Property,30
+2021-08,TPPD,Crime Against Society,14
+2021-09,GPD,Crime Against Person,6
+2021-09,GPD,Crime Against Property,30
+2021-09,GPD,Crime Against Society,19
+2021-09,MCPD,Crime Against Not a Crime,11
+2021-09,MCPD,Crime Against Person,121
+2021-09,MCPD,Crime Against Property,987
+2021-09,MCPD,Crime Against Society,329
+2021-09,MCSO,Crime Against Person,1
+2021-09,RCPD,Crime Against Person,32
+2021-09,RCPD,Crime Against Property,76
+2021-09,RCPD,Crime Against Society,65
+2021-09,TPPD,Crime Against Person,5
+2021-09,TPPD,Crime Against Property,30
+2021-09,TPPD,Crime Against Society,11
+2021-10,GPD,Crime Against Not a Crime,1
+2021-10,GPD,Crime Against Person,8
+2021-10,GPD,Crime Against Property,32
+2021-10,GPD,Crime Against Society,20
+2021-10,MCFM,Crime Against Property,1
+2021-10,MCPD,Crime Against Not a Crime,13
+2021-10,MCPD,Crime Against Person,136
+2021-10,MCPD,Crime Against Property,1090
+2021-10,MCPD,Crime Against Society,392
+2021-10,RCPD,Crime Against Not a Crime,1
+2021-10,RCPD,Crime Against Person,32
+2021-10,RCPD,Crime Against Property,71
+2021-10,RCPD,Crime Against Society,67
+2021-10,TPPD,Crime Against Person,2
+2021-10,TPPD,Crime Against Property,52
+2021-10,TPPD,Crime Against Society,12
+2021-11,GPD,Crime Against Person,8
+2021-11,GPD,Crime Against Property,33
+2021-11,GPD,Crime Against Society,22
+2021-11,MCPD,Crime Against Not a Crime,11
+2021-11,MCPD,Crime Against Person,133
+2021-11,MCPD,Crime Against Property,875
+2021-11,MCPD,Crime Against Society,299
+2021-11,RCPD,Crime Against Not a Crime,2
+2021-11,RCPD,Crime Against Person,30
+2021-11,RCPD,Crime Against Property,91
+2021-11,RCPD,Crime Against Society,80
+2021-11,TPPD,Crime Against Person,3
+2021-11,TPPD,Crime Against Property,26
+2021-11,TPPD,Crime Against Society,7
+2021-12,GPD,Crime Against Not a Crime,1
+2021-12,GPD,Crime Against Person,3
+2021-12,GPD,Crime Against Property,34
+2021-12,GPD,Crime Against Society,23
+2021-12,MCPD,Crime Against Not a Crime,17
+2021-12,MCPD,Crime Against Person,105
+2021-12,MCPD,Crime Against Property,1024
+2021-12,MCPD,Crime Against Society,338
+2021-12,RCPD,Crime Against Person,23
+2021-12,RCPD,Crime Against Property,75
+2021-12,RCPD,Crime Against Society,61
+2021-12,TPPD,Crime Against Person,1
+2021-12,TPPD,Crime Against Property,25
+2021-12,TPPD,Crime Against Society,9
+2022-01,GPD,Crime Against Person,6
+2022-01,GPD,Crime Against Property,25
+2022-01,GPD,Crime Against Society,18
+2022-01,MCPD,Crime Against Not a Crime,9
+2022-01,MCPD,Crime Against Person,112
+2022-01,MCPD,Crime Against Property,970
+2022-01,MCPD,Crime Against Society,296
+2022-01,RCPD,Crime Against Not a Crime,1
+2022-01,RCPD,Crime Against Person,22
+2022-01,RCPD,Crime Against Property,77
+2022-01,RCPD,Crime Against Society,59
+2022-01,TPPD,Crime Against Not a Crime,1
+2022-01,TPPD,Crime Against Person,1
+2022-01,TPPD,Crime Against Property,28
+2022-01,TPPD,Crime Against Society,12
+2022-02,GPD,Crime Against Person,6
+2022-02,GPD,Crime Against Property,29
+2022-02,GPD,Crime Against Society,15
+2022-02,MCPD,Crime Against Not a Crime,15
+2022-02,MCPD,Crime Against Person,92
+2022-02,MCPD,Crime Against Property,910
+2022-02,MCPD,Crime Against Society,315
+2022-02,RCPD,Crime Against Person,27
+2022-02,RCPD,Crime Against Property,65
+2022-02,RCPD,Crime Against Society,67
+2022-02,TPPD,Crime Against Person,4
+2022-02,TPPD,Crime Against Property,36
+2022-02,TPPD,Crime Against Society,19
+2022-03,GPD,Crime Against Person,6
+2022-03,GPD,Crime Against Property,24
+2022-03,GPD,Crime Against Society,21
+2022-03,MCPD,Crime Against Not a Crime,17
+2022-03,MCPD,Crime Against Person,99
+2022-03,MCPD,Crime Against Property,1025
+2022-03,MCPD,Crime Against Society,367
+2022-03,RCPD,Crime Against Not a Crime,1
+2022-03,RCPD,Crime Against Person,32
+2022-03,RCPD,Crime Against Property,101
+2022-03,RCPD,Crime Against Society,75
+2022-03,TPPD,Crime Against Person,4
+2022-03,TPPD,Crime Against Property,36
+2022-03,TPPD,Crime Against Society,8
+2022-04,GPD,Crime Against Not a Crime,2
+2022-04,GPD,Crime Against Person,8
+2022-04,GPD,Crime Against Property,33
+2022-04,GPD,Crime Against Society,23
+2022-04,MCFM,Crime Against Person,1
+2022-04,MCFM,Crime Against Property,1
+2022-04,MCPD,Crime Against Not a Crime,11
+2022-04,MCPD,Crime Against Person,100
+2022-04,MCPD,Crime Against Property,891
+2022-04,MCPD,Crime Against Society,317
+2022-04,RCPD,Crime Against Not a Crime,3
+2022-04,RCPD,Crime Against Person,29
+2022-04,RCPD,Crime Against Property,77
+2022-04,RCPD,Crime Against Society,65
+2022-04,TPPD,Crime Against Person,7
+2022-04,TPPD,Crime Against Property,37
+2022-04,TPPD,Crime Against Society,15
+2022-05,GPD,Crime Against Not a Crime,2
+2022-05,GPD,Crime Against Person,4
+2022-05,GPD,Crime Against Property,39
+2022-05,GPD,Crime Against Society,13
+2022-05,MCPD,Crime Against Not a Crime,10
+2022-05,MCPD,Crime Against Person,104
+2022-05,MCPD,Crime Against Property,1033
+2022-05,MCPD,Crime Against Society,348
+2022-05,RCPD,Crime Against Not a Crime,1
+2022-05,RCPD,Crime Against Person,27
+2022-05,RCPD,Crime Against Property,88
+2022-05,RCPD,Crime Against Society,80
+2022-05,TPPD,Crime Against Person,3
+2022-05,TPPD,Crime Against Property,53
+2022-05,TPPD,Crime Against Society,9
+2022-06,GPD,Crime Against Person,8
+2022-06,GPD,Crime Against Property,29
+2022-06,GPD,Crime Against Society,24
+2022-06,MCPD,Crime Against Not a Crime,9
+2022-06,MCPD,Crime Against Person,83
+2022-06,MCPD,Crime Against Property,968
+2022-06,MCPD,Crime Against Society,321
+2022-06,RCPD,Crime Against Not a Crime,3
+2022-06,RCPD,Crime Against Person,33
+2022-06,RCPD,Crime Against Property,76
+2022-06,RCPD,Crime Against Society,66
+2022-06,TPPD,Crime Against Person,3
+2022-06,TPPD,Crime Against Property,47
+2022-06,TPPD,Crime Against Society,11
+2022-07,GPD,Crime Against Not a Crime,1
+2022-07,GPD,Crime Against Person,5
+2022-07,GPD,Crime Against Property,32
+2022-07,GPD,Crime Against Society,15
+2022-07,MCFM,Crime Against Property,4
+2022-07,MCPD,Crime Against Not a Crime,12
+2022-07,MCPD,Crime Against Person,79
+2022-07,MCPD,Crime Against Property,1041
+2022-07,MCPD,Crime Against Society,345
+2022-07,RCPD,Crime Against Not a Crime,2
+2022-07,RCPD,Crime Against Person,32
+2022-07,RCPD,Crime Against Property,82
+2022-07,RCPD,Crime Against Society,66
+2022-07,TPPD,Crime Against Person,5
+2022-07,TPPD,Crime Against Property,34
+2022-07,TPPD,Crime Against Society,15
+2022-08,GPD,Crime Against Person,6
+2022-08,GPD,Crime Against Property,19
+2022-08,GPD,Crime Against Society,22
+2022-08,MCPD,Crime Against Not a Crime,5
+2022-08,MCPD,Crime Against Person,99
+2022-08,MCPD,Crime Against Property,1159
+2022-08,MCPD,Crime Against Society,303
+2022-08,MCSO,Crime Against Society,1
+2022-08,RCPD,Crime Against Not a Crime,1
+2022-08,RCPD,Crime Against Person,26
+2022-08,RCPD,Crime Against Property,92
+2022-08,RCPD,Crime Against Society,52
+2022-08,TPPD,Crime Against Person,6
+2022-08,TPPD,Crime Against Property,54
+2022-08,TPPD,Crime Against Society,14
+2022-09,GPD,Crime Against Person,4
+2022-09,GPD,Crime Against Property,31
+2022-09,GPD,Crime Against Society,14
+2022-09,MCPD,Crime Against Not a Crime,7
+2022-09,MCPD,Crime Against Person,109
+2022-09,MCPD,Crime Against Property,1144
+2022-09,MCPD,Crime Against Society,332
+2022-09,MCSO,Crime Against Society,1
+2022-09,RCPD,Crime Against Not a Crime,2
+2022-09,RCPD,Crime Against Person,27
+2022-09,RCPD,Crime Against Property,98
+2022-09,RCPD,Crime Against Society,71
+2022-09,TPPD,Crime Against Person,4
+2022-09,TPPD,Crime Against Property,44
+2022-09,TPPD,Crime Against Society,19
+2022-10,GPD,Crime Against Person,3
+2022-10,GPD,Crime Against Property,31
+2022-10,GPD,Crime Against Society,15
+2022-10,MCFM,Crime Against Property,1
+2022-10,MCPD,Crime Against Not a Crime,7
+2022-10,MCPD,Crime Against Person,90
+2022-10,MCPD,Crime Against Property,1149
+2022-10,MCPD,Crime Against Society,328
+2022-10,RCPD,Crime Against Person,27
+2022-10,RCPD,Crime Against Property,113
+2022-10,RCPD,Crime Against Society,87
+2022-10,TPPD,Crime Against Person,2
+2022-10,TPPD,Crime Against Property,29
+2022-10,TPPD,Crime Against Society,14
+2022-11,GPD,Crime Against Person,8
+2022-11,GPD,Crime Against Property,24
+2022-11,GPD,Crime Against Society,16
+2022-11,MCPD,Crime Against Not a Crime,14
+2022-11,MCPD,Crime Against Person,96
+2022-11,MCPD,Crime Against Property,1052
+2022-11,MCPD,Crime Against Society,341
+2022-11,RCPD,Crime Against Not a Crime,2
+2022-11,RCPD,Crime Against Person,33
+2022-11,RCPD,Crime Against Property,108
+2022-11,RCPD,Crime Against Society,79
+2022-11,TPPD,Crime Against Person,4
+2022-11,TPPD,Crime Against Property,31
+2022-11,TPPD,Crime Against Society,15
+2022-12,GPD,Crime Against Person,2
+2022-12,GPD,Crime Against Property,29
+2022-12,GPD,Crime Against Society,7
+2022-12,MCPD,Crime Against Not a Crime,12
+2022-12,MCPD,Crime Against Person,90
+2022-12,MCPD,Crime Against Property,1145
+2022-12,MCPD,Crime Against Society,337
+2022-12,RCPD,Crime Against Not a Crime,2
+2022-12,RCPD,Crime Against Person,20
+2022-12,RCPD,Crime Against Property,115
+2022-12,RCPD,Crime Against Society,81
+2022-12,TPPD,Crime Against Person,1
+2022-12,TPPD,Crime Against Property,45
+2022-12,TPPD,Crime Against Society,16
+2023-01,GPD,Crime Against Person,8
+2023-01,GPD,Crime Against Property,27
+2023-01,GPD,Crime Against Society,18
+2023-01,MCPD,Crime Against Not a Crime,9
+2023-01,MCPD,Crime Against Person,107
+2023-01,MCPD,Crime Against Property,1029
+2023-01,MCPD,Crime Against Society,359
+2023-01,RCPD,Crime Against Not a Crime,2
+2023-01,RCPD,Crime Against Person,31
+2023-01,RCPD,Crime Against Property,112
+2023-01,RCPD,Crime Against Society,95
+2023-01,TPPD,Crime Against Person,2
+2023-01,TPPD,Crime Against Property,51
+2023-01,TPPD,Crime Against Society,16
+2023-02,GPD,Crime Against Not a Crime,2
+2023-02,GPD,Crime Against Person,1
+2023-02,GPD,Crime Against Property,33
+2023-02,GPD,Crime Against Society,18
+2023-02,MCPD,Crime Against Not a Crime,15
+2023-02,MCPD,Crime Against Person,91
+2023-02,MCPD,Crime Against Property,974
+2023-02,MCPD,Crime Against Society,336
+2023-02,RCPD,Crime Against Not a Crime,3
+2023-02,RCPD,Crime Against Person,30
+2023-02,RCPD,Crime Against Property,99
+2023-02,RCPD,Crime Against Society,75
+2023-02,TPPD,Crime Against Person,4
+2023-02,TPPD,Crime Against Property,51
+2023-02,TPPD,Crime Against Society,14
+2023-03,GPD,Crime Against Person,4
+2023-03,GPD,Crime Against Property,30
+2023-03,GPD,Crime Against Society,16
+2023-03,MCPD,Crime Against Not a Crime,12
+2023-03,MCPD,Crime Against Person,99
+2023-03,MCPD,Crime Against Property,1056
+2023-03,MCPD,Crime Against Society,355
+2023-03,RCPD,Crime Against Not a Crime,4
+2023-03,RCPD,Crime Against Person,29
+2023-03,RCPD,Crime Against Property,98
+2023-03,RCPD,Crime Against Society,88
+2023-03,TPPD,Crime Against Person,9
+2023-03,TPPD,Crime Against Property,66
+2023-03,TPPD,Crime Against Society,23
+2023-04,GPD,Crime Against Not a Crime,2
+2023-04,GPD,Crime Against Person,3
+2023-04,GPD,Crime Against Property,35
+2023-04,GPD,Crime Against Society,21
+2023-04,MCPD,Crime Against Not a Crime,10
+2023-04,MCPD,Crime Against Person,90
+2023-04,MCPD,Crime Against Property,1077
+2023-04,MCPD,Crime Against Society,321
+2023-04,RCPD,Crime Against Not a Crime,2
+2023-04,RCPD,Crime Against Person,23
+2023-04,RCPD,Crime Against Property,92
+2023-04,RCPD,Crime Against Society,78
+2023-04,TPPD,Crime Against Person,2
+2023-04,TPPD,Crime Against Property,65
+2023-04,TPPD,Crime Against Society,18
+2023-05,GPD,Crime Against Person,6
+2023-05,GPD,Crime Against Property,30
+2023-05,GPD,Crime Against Society,13
+2023-05,MCPD,Crime Against Not a Crime,24
+2023-05,MCPD,Crime Against Person,115
+2023-05,MCPD,Crime Against Property,1119
+2023-05,MCPD,Crime Against Society,350
+2023-05,RCPD,Crime Against Not a Crime,3
+2023-05,RCPD,Crime Against Person,31
+2023-05,RCPD,Crime Against Property,94
+2023-05,RCPD,Crime Against Society,88
+2023-05,TPPD,Crime Against Person,2
+2023-05,TPPD,Crime Against Property,40
+2023-05,TPPD,Crime Against Society,14
+2023-06,GPD,Crime Against Person,5
+2023-06,GPD,Crime Against Property,44
+2023-06,GPD,Crime Against Society,4
+2023-06,MCPD,Crime Against Not a Crime,17
+2023-06,MCPD,Crime Against Person,63
+2023-06,MCPD,Crime Against Property,1071
+2023-06,MCPD,Crime Against Society,229
+2023-06,RCPD,Crime Against Not a Crime,4
+2023-06,RCPD,Crime Against Person,25
+2023-06,RCPD,Crime Against Property,80
+2023-06,RCPD,Crime Against Society,100
+2023-06,TPPD,Crime Against Person,1
+2023-06,TPPD,Crime Against Property,57
+2023-06,TPPD,Crime Against Society,14
+2023-07,GPD,Crime Against Person,6
+2023-07,GPD,Crime Against Property,28
+2023-07,GPD,Crime Against Society,13
+2023-07,MCPD,Crime Against Not a Crime,11
+2023-07,MCPD,Crime Against Person,87
+2023-07,MCPD,Crime Against Property,1129
+2023-07,MCPD,Crime Against Society,157
+2023-07,RCPD,Crime Against Not a Crime,2
+2023-07,RCPD,Crime Against Person,22
+2023-07,RCPD,Crime Against Property,91
+2023-07,RCPD,Crime Against Society,57
+2023-07,TPPD,Crime Against Person,3
+2023-07,TPPD,Crime Against Property,46
+2023-07,TPPD,Crime Against Society,8
+2023-08,GPD,Crime Against Person,5
+2023-08,GPD,Crime Against Property,35
+2023-08,GPD,Crime Against Society,5
+2023-08,MCPD,Crime Against Person,82
+2023-08,MCPD,Crime Against Property,1236
+2023-08,MCPD,Crime Against Society,71
+2023-08,RCPD,Crime Against Person,27
+2023-08,RCPD,Crime Against Property,117
+2023-08,RCPD,Crime Against Society,13
+2023-08,TPPD,Crime Against Person,3
+2023-08,TPPD,Crime Against Property,67
+2023-08,TPPD,Crime Against Society,5
+2023-09,GPD,Crime Against Person,5
+2023-09,GPD,Crime Against Property,50
+2023-09,GPD,Crime Against Society,5
+2023-09,MCPD,Crime Against Person,89
+2023-09,MCPD,Crime Against Property,1190
+2023-09,MCPD,Crime Against Society,68
+2023-09,RCPD,Crime Against Person,30
+2023-09,RCPD,Crime Against Property,102
+2023-09,RCPD,Crime Against Society,18
+2023-09,TPPD,Crime Against Person,4
+2023-09,TPPD,Crime Against Property,40
+2023-09,TPPD,Crime Against Society,12
+2023-10,GPD,Crime Against Person,8
+2023-10,GPD,Crime Against Property,33
+2023-10,GPD,Crime Against Society,9
+2023-10,MCPD,Crime Against Person,95
+2023-10,MCPD,Crime Against Property,1281
+2023-10,MCPD,Crime Against Society,104
+2023-10,RCPD,Crime Against Person,22
+2023-10,RCPD,Crime Against Property,83
+2023-10,RCPD,Crime Against Society,21
+2023-10,TPPD,Crime Against Person,2
+2023-10,TPPD,Crime Against Property,46
+2023-10,TPPD,Crime Against Society,5
+2023-11,GPD,Crime Against Person,10
+2023-11,GPD,Crime Against Property,58
+2023-11,GPD,Crime Against Society,5
+2023-11,MCPD,Crime Against Not a Crime,1
+2023-11,MCPD,Crime Against Person,93
+2023-11,MCPD,Crime Against Property,1301
+2023-11,MCPD,Crime Against Society,103
+2023-11,RCPD,Crime Against Person,18
+2023-11,RCPD,Crime Against Property,101
+2023-11,RCPD,Crime Against Society,18
+2023-11,TPPD,Crime Against Person,3
+2023-11,TPPD,Crime Against Property,59
+2023-11,TPPD,Crime Against Society,3
+2023-12,GPD,Crime Against Person,10
+2023-12,GPD,Crime Against Property,35
+2023-12,GPD,Crime Against Society,9
+2023-12,MCPD,Crime Against Not a Crime,2
+2023-12,MCPD,Crime Against Person,93
+2023-12,MCPD,Crime Against Property,1183
+2023-12,MCPD,Crime Against Society,73
+2023-12,RCPD,Crime Against Person,19
+2023-12,RCPD,Crime Against Property,88
+2023-12,RCPD,Crime Against Society,14
+2023-12,TPPD,Crime Against Person,1
+2023-12,TPPD,Crime Against Property,34
+2023-12,TPPD,Crime Against Society,1
+2024-01,GPD,Crime Against Person,1
+2024-01,GPD,Crime Against Property,30
+2024-01,GPD,Crime Against Society,7
+2024-01,MCPD,Crime Against Person,75
+2024-01,MCPD,Crime Against Property,1094
+2024-01,MCPD,Crime Against Society,111
+2024-01,RCPD,Crime Against Not a Crime,2
+2024-01,RCPD,Crime Against Person,17
+2024-01,RCPD,Crime Against Property,86
+2024-01,RCPD,Crime Against Society,7
+2024-01,TPPD,Crime Against Property,70
+2024-01,TPPD,Crime Against Society,4
+2024-02,GPD,Crime Against Person,4
+2024-02,GPD,Crime Against Property,28
+2024-02,GPD,Crime Against Society,7
+2024-02,MCPD,Crime Against Not a Crime,7
+2024-02,MCPD,Crime Against Person,102
+2024-02,MCPD,Crime Against Property,984
+2024-02,MCPD,Crime Against Society,146
+2024-02,RCPD,Crime Against Not a Crime,3
+2024-02,RCPD,Crime Against Person,22
+2024-02,RCPD,Crime Against Property,85
+2024-02,RCPD,Crime Against Society,38
+2024-02,TPPD,Crime Against Person,3
+2024-02,TPPD,Crime Against Property,97
+2024-02,TPPD,Crime Against Society,3
+2024-03,GPD,Crime Against Person,3
+2024-03,GPD,Crime Against Property,25
+2024-03,GPD,Crime Against Society,9
+2024-03,MCPD,Crime Against Not a Crime,11
+2024-03,MCPD,Crime Against Person,89
+2024-03,MCPD,Crime Against Property,952
+2024-03,MCPD,Crime Against Society,243
+2024-03,RCPD,Crime Against Not a Crime,1
+2024-03,RCPD,Crime Against Person,21
+2024-03,RCPD,Crime Against Property,107
+2024-03,RCPD,Crime Against Society,80
+2024-03,TPPD,Crime Against Person,4
+2024-03,TPPD,Crime Against Property,72
+2024-03,TPPD,Crime Against Society,11
+2024-04,GPD,Crime Against Not a Crime,1
+2024-04,GPD,Crime Against Person,2
+2024-04,GPD,Crime Against Property,29
+2024-04,GPD,Crime Against Society,7
+2024-04,MCPD,Crime Against Not a Crime,10
+2024-04,MCPD,Crime Against Person,70
+2024-04,MCPD,Crime Against Property,915
+2024-04,MCPD,Crime Against Society,246
+2024-04,RCPD,Crime Against Not a Crime,5
+2024-04,RCPD,Crime Against Person,32
+2024-04,RCPD,Crime Against Property,99
+2024-04,RCPD,Crime Against Society,102
+2024-04,TPPD,Crime Against Person,2
+2024-04,TPPD,Crime Against Property,37
+2024-04,TPPD,Crime Against Society,7
+2024-05,GPD,Crime Against Person,3
+2024-05,GPD,Crime Against Property,26
+2024-05,GPD,Crime Against Society,8
+2024-05,MCPD,Crime Against Not a Crime,13
+2024-05,MCPD,Crime Against Person,82
+2024-05,MCPD,Crime Against Property,1062
+2024-05,MCPD,Crime Against Society,235
+2024-05,RCPD,Crime Against Not a Crime,3
+2024-05,RCPD,Crime Against Person,29
+2024-05,RCPD,Crime Against Property,128
+2024-05,RCPD,Crime Against Society,74
+2024-05,TPPD,Crime Against Person,2
+2024-05,TPPD,Crime Against Property,60
+2024-05,TPPD,Crime Against Society,8
+2024-06,GPD,Crime Against Not a Crime,1
+2024-06,GPD,Crime Against Person,7
+2024-06,GPD,Crime Against Property,25
+2024-06,GPD,Crime Against Society,8
+2024-06,MCPD,Crime Against Not a Crime,6
+2024-06,MCPD,Crime Against Person,81
+2024-06,MCPD,Crime Against Property,1010
+2024-06,MCPD,Crime Against Society,252
+2024-06,RCPD,Crime Against Not a Crime,1
+2024-06,RCPD,Crime Against Person,24
+2024-06,RCPD,Crime Against Property,90
+2024-06,RCPD,Crime Against Society,82
+2024-06,TPPD,Crime Against Person,2
+2024-06,TPPD,Crime Against Property,42
+2024-06,TPPD,Crime Against Society,4
+2024-07,GPD,Crime Against Not a Crime,1
+2024-07,GPD,Crime Against Person,6
+2024-07,GPD,Crime Against Property,32
+2024-07,GPD,Crime Against Society,7
+2024-07,MCPD,Crime Against Not a Crime,8
+2024-07,MCPD,Crime Against Person,56
+2024-07,MCPD,Crime Against Property,1106
+2024-07,MCPD,Crime Against Society,228
+2024-07,RCPD,Crime Against Not a Crime,1
+2024-07,RCPD,Crime Against Person,26
+2024-07,RCPD,Crime Against Property,106
+2024-07,RCPD,Crime Against Society,91
+2024-07,TPPD,Crime Against Person,2
+2024-07,TPPD,Crime Against Property,39
+2024-07,TPPD,Crime Against Society,10
+2024-08,GPD,Crime Against Person,5
+2024-08,GPD,Crime Against Property,27
+2024-08,GPD,Crime Against Society,11
+2024-08,MCPD,Crime Against Not a Crime,8
+2024-08,MCPD,Crime Against Person,67
+2024-08,MCPD,Crime Against Property,982
+2024-08,MCPD,Crime Against Society,244
+2024-08,RCPD,Crime Against Not a Crime,1
+2024-08,RCPD,Crime Against Person,36
+2024-08,RCPD,Crime Against Property,136
+2024-08,RCPD,Crime Against Society,73
+2024-08,TPPD,Crime Against Person,1
+2024-08,TPPD,Crime Against Property,50
+2024-08,TPPD,Crime Against Society,6
+2024-09,GPD,Crime Against Person,4
+2024-09,GPD,Crime Against Property,22
+2024-09,GPD,Crime Against Society,10
+2024-09,MCPD,Crime Against Not a Crime,8
+2024-09,MCPD,Crime Against Person,76
+2024-09,MCPD,Crime Against Property,1044
+2024-09,MCPD,Crime Against Society,277
+2024-09,MCSO,Crime Against Society,3
+2024-09,P,Crime Against Society,1
+2024-09,RCPD,Crime Against Person,16
+2024-09,RCPD,Crime Against Property,104
+2024-09,RCPD,Crime Against Society,79
+2024-09,TPPD,Crime Against Property,50
+2024-09,TPPD,Crime Against Society,3
+2024-10,GPD,Crime Against Person,3
+2024-10,GPD,Crime Against Property,20
+2024-10,GPD,Crime Against Society,8
+2024-10,MCPD,Crime Against Not a Crime,12
+2024-10,MCPD,Crime Against Person,83
+2024-10,MCPD,Crime Against Property,1176
+2024-10,MCPD,Crime Against Society,271
+2024-10,RCPD,Crime Against Not a Crime,1
+2024-10,RCPD,Crime Against Person,12
+2024-10,RCPD,Crime Against Property,109
+2024-10,RCPD,Crime Against Society,73
+2024-10,TPPD,Crime Against Person,5
+2024-10,TPPD,Crime Against Property,64
+2024-10,TPPD,Crime Against Society,9
+2024-11,MCPD,Crime Against Property,4
+2024-11,TPPD,Crime Against Property,3

@@ -1,0 +1,2179 @@
+month_year,match_status,category,count
+2018-06,Crime,drug related,146
+2018-06,Crime,fraud,18
+2018-06,Crime,other,264
+2018-06,Crime,sex crime,1
+2018-06,Crime,sexual assault,16
+2018-06,Crime,theft from auto,41
+2018-06,Crime,theft from person,5
+2018-06,Crime,theft from property,70
+2018-06,Crime,theft of auto,8
+2018-06,Crime,theft of parts,3
+2018-06,Crime,traffic or accident,58
+2018-06,Crime,violent crime,18
+2018-06,Dispatch,no crime report,17897
+2018-06,Match,domestic incident,5
+2018-06,Match,drug related,35
+2018-06,Match,fraud,85
+2018-06,Match,other,320
+2018-06,Match,runaway,10
+2018-06,Match,sex crime,2
+2018-06,Match,sexual assault,23
+2018-06,Match,theft from auto,279
+2018-06,Match,theft from person,30
+2018-06,Match,theft from property,547
+2018-06,Match,theft of auto,57
+2018-06,Match,theft of parts,65
+2018-06,Match,traffic or accident,15
+2018-06,Match,violent crime,116
+2018-07,Crime,domestic incident,2
+2018-07,Crime,drug related,142
+2018-07,Crime,fraud,16
+2018-07,Crime,other,210
+2018-07,Crime,runaway,3
+2018-07,Crime,sex crime,4
+2018-07,Crime,sexual assault,10
+2018-07,Crime,theft from auto,18
+2018-07,Crime,theft from person,4
+2018-07,Crime,theft from property,71
+2018-07,Crime,theft of auto,8
+2018-07,Crime,theft of parts,3
+2018-07,Crime,traffic or accident,60
+2018-07,Crime,violent crime,16
+2018-07,Dispatch,no crime report,17900
+2018-07,Match,abduction,1
+2018-07,Match,domestic incident,1
+2018-07,Match,drug related,21
+2018-07,Match,fraud,74
+2018-07,Match,other,416
+2018-07,Match,runaway,12
+2018-07,Match,sexual assault,12
+2018-07,Match,theft from auto,257
+2018-07,Match,theft from person,24
+2018-07,Match,theft from property,614
+2018-07,Match,theft of auto,57
+2018-07,Match,theft of parts,55
+2018-07,Match,traffic or accident,13
+2018-07,Match,violent crime,110
+2018-08,Crime,domestic incident,1
+2018-08,Crime,drug related,171
+2018-08,Crime,fraud,16
+2018-08,Crime,human trafficking,2
+2018-08,Crime,other,202
+2018-08,Crime,runaway,2
+2018-08,Crime,sex crime,6
+2018-08,Crime,sexual assault,7
+2018-08,Crime,theft from auto,29
+2018-08,Crime,theft from person,5
+2018-08,Crime,theft from property,80
+2018-08,Crime,theft of auto,3
+2018-08,Crime,theft of parts,3
+2018-08,Crime,traffic or accident,56
+2018-08,Crime,violent crime,14
+2018-08,Dispatch,no crime report,17268
+2018-08,Match,domestic incident,4
+2018-08,Match,drug related,26
+2018-08,Match,fraud,94
+2018-08,Match,other,419
+2018-08,Match,runaway,13
+2018-08,Match,sexual assault,19
+2018-08,Match,theft from auto,288
+2018-08,Match,theft from person,24
+2018-08,Match,theft from property,559
+2018-08,Match,theft of auto,49
+2018-08,Match,theft of parts,63
+2018-08,Match,traffic or accident,24
+2018-08,Match,violent crime,132
+2018-09,Crime,domestic incident,2
+2018-09,Crime,drug related,114
+2018-09,Crime,fraud,19
+2018-09,Crime,other,189
+2018-09,Crime,runaway,5
+2018-09,Crime,sex crime,2
+2018-09,Crime,sexual assault,15
+2018-09,Crime,theft from auto,19
+2018-09,Crime,theft from person,7
+2018-09,Crime,theft from property,66
+2018-09,Crime,theft of auto,1
+2018-09,Crime,theft of parts,5
+2018-09,Crime,traffic or accident,53
+2018-09,Crime,violent crime,19
+2018-09,Dispatch,no crime report,16602
+2018-09,Match,drug related,26
+2018-09,Match,fraud,63
+2018-09,Match,other,412
+2018-09,Match,runaway,11
+2018-09,Match,sexual assault,18
+2018-09,Match,theft from auto,242
+2018-09,Match,theft from person,28
+2018-09,Match,theft from property,528
+2018-09,Match,theft of auto,44
+2018-09,Match,theft of parts,54
+2018-09,Match,traffic or accident,24
+2018-09,Match,violent crime,120
+2018-10,Crime,domestic incident,1
+2018-10,Crime,drug related,123
+2018-10,Crime,fraud,14
+2018-10,Crime,human trafficking,1
+2018-10,Crime,other,174
+2018-10,Crime,runaway,1
+2018-10,Crime,sex crime,2
+2018-10,Crime,sexual assault,11
+2018-10,Crime,theft from auto,33
+2018-10,Crime,theft from person,3
+2018-10,Crime,theft from property,88
+2018-10,Crime,theft of auto,4
+2018-10,Crime,theft of parts,7
+2018-10,Crime,traffic or accident,63
+2018-10,Crime,violent crime,24
+2018-10,Dispatch,no crime report,17530
+2018-10,Match,abduction,1
+2018-10,Match,drug related,36
+2018-10,Match,fraud,83
+2018-10,Match,human trafficking,1
+2018-10,Match,other,446
+2018-10,Match,runaway,13
+2018-10,Match,sexual assault,16
+2018-10,Match,theft from auto,262
+2018-10,Match,theft from person,24
+2018-10,Match,theft from property,480
+2018-10,Match,theft of auto,51
+2018-10,Match,theft of parts,43
+2018-10,Match,traffic or accident,28
+2018-10,Match,violent crime,127
+2018-11,Crime,domestic incident,1
+2018-11,Crime,drug related,129
+2018-11,Crime,fraud,10
+2018-11,Crime,no dispatch,1
+2018-11,Crime,other,122
+2018-11,Crime,sex crime,2
+2018-11,Crime,sexual assault,15
+2018-11,Crime,theft from auto,29
+2018-11,Crime,theft from person,5
+2018-11,Crime,theft from property,63
+2018-11,Crime,theft of auto,7
+2018-11,Crime,theft of parts,4
+2018-11,Crime,traffic or accident,88
+2018-11,Crime,violent crime,21
+2018-11,Dispatch,no crime report,15838
+2018-11,Match,abduction,1
+2018-11,Match,domestic incident,2
+2018-11,Match,drug related,22
+2018-11,Match,fraud,74
+2018-11,Match,other,408
+2018-11,Match,runaway,15
+2018-11,Match,sexual assault,16
+2018-11,Match,theft from auto,225
+2018-11,Match,theft from person,26
+2018-11,Match,theft from property,495
+2018-11,Match,theft of auto,52
+2018-11,Match,theft of parts,60
+2018-11,Match,traffic or accident,20
+2018-11,Match,violent crime,110
+2018-12,Crime,domestic incident,3
+2018-12,Crime,drug related,120
+2018-12,Crime,fraud,14
+2018-12,Crime,human trafficking,1
+2018-12,Crime,other,143
+2018-12,Crime,runaway,1
+2018-12,Crime,sex crime,5
+2018-12,Crime,sex materials,2
+2018-12,Crime,sexual assault,6
+2018-12,Crime,theft from auto,29
+2018-12,Crime,theft from person,11
+2018-12,Crime,theft from property,67
+2018-12,Crime,theft of auto,4
+2018-12,Crime,theft of parts,2
+2018-12,Crime,traffic or accident,70
+2018-12,Crime,violent crime,25
+2018-12,Dispatch,no crime report,16071
+2018-12,Match,abduction,1
+2018-12,Match,domestic incident,2
+2018-12,Match,drug related,40
+2018-12,Match,fraud,100
+2018-12,Match,human trafficking,1
+2018-12,Match,other,394
+2018-12,Match,runaway,7
+2018-12,Match,sex crime,2
+2018-12,Match,sexual assault,14
+2018-12,Match,theft from auto,209
+2018-12,Match,theft from person,33
+2018-12,Match,theft from property,571
+2018-12,Match,theft of auto,28
+2018-12,Match,theft of parts,48
+2018-12,Match,traffic or accident,29
+2018-12,Match,violent crime,115
+2019-01,Crime,domestic incident,3
+2019-01,Crime,drug related,109
+2019-01,Crime,fraud,19
+2019-01,Crime,other,144
+2019-01,Crime,runaway,2
+2019-01,Crime,sex crime,8
+2019-01,Crime,sexual assault,11
+2019-01,Crime,theft from auto,23
+2019-01,Crime,theft from person,6
+2019-01,Crime,theft from property,60
+2019-01,Crime,theft of auto,5
+2019-01,Crime,theft of parts,2
+2019-01,Crime,traffic or accident,56
+2019-01,Crime,violent crime,14
+2019-01,Dispatch,no crime report,15532
+2019-01,Match,domestic incident,2
+2019-01,Match,drug related,21
+2019-01,Match,fraud,106
+2019-01,Match,other,371
+2019-01,Match,runaway,15
+2019-01,Match,sexual assault,26
+2019-01,Match,theft from auto,226
+2019-01,Match,theft from person,27
+2019-01,Match,theft from property,406
+2019-01,Match,theft of auto,42
+2019-01,Match,theft of parts,46
+2019-01,Match,traffic or accident,14
+2019-01,Match,violent crime,97
+2019-02,Crime,domestic incident,1
+2019-02,Crime,drug related,110
+2019-02,Crime,fraud,11
+2019-02,Crime,human trafficking,1
+2019-02,Crime,other,132
+2019-02,Crime,runaway,1
+2019-02,Crime,sex crime,7
+2019-02,Crime,sexual assault,12
+2019-02,Crime,theft from auto,26
+2019-02,Crime,theft from person,1
+2019-02,Crime,theft from property,51
+2019-02,Crime,theft of auto,2
+2019-02,Crime,theft of parts,2
+2019-02,Crime,traffic or accident,60
+2019-02,Crime,violent crime,13
+2019-02,Dispatch,no crime report,14097
+2019-02,Match,domestic incident,6
+2019-02,Match,drug related,22
+2019-02,Match,fraud,98
+2019-02,Match,other,341
+2019-02,Match,runaway,18
+2019-02,Match,sex crime,2
+2019-02,Match,sexual assault,22
+2019-02,Match,theft from auto,200
+2019-02,Match,theft from person,21
+2019-02,Match,theft from property,374
+2019-02,Match,theft of auto,30
+2019-02,Match,theft of parts,45
+2019-02,Match,traffic or accident,21
+2019-02,Match,violent crime,78
+2019-03,Crime,domestic incident,2
+2019-03,Crime,drug related,153
+2019-03,Crime,fraud,11
+2019-03,Crime,no dispatch,1
+2019-03,Crime,other,178
+2019-03,Crime,runaway,3
+2019-03,Crime,sex crime,2
+2019-03,Crime,sexual assault,4
+2019-03,Crime,theft from auto,16
+2019-03,Crime,theft from person,7
+2019-03,Crime,theft from property,59
+2019-03,Crime,theft of auto,9
+2019-03,Crime,theft of parts,3
+2019-03,Crime,traffic or accident,70
+2019-03,Crime,violent crime,24
+2019-03,Dispatch,no crime report,15639
+2019-03,Match,abduction,1
+2019-03,Match,domestic incident,1
+2019-03,Match,drug related,17
+2019-03,Match,fraud,81
+2019-03,Match,other,366
+2019-03,Match,runaway,15
+2019-03,Match,sex materials,2
+2019-03,Match,sexual assault,14
+2019-03,Match,theft from auto,223
+2019-03,Match,theft from person,29
+2019-03,Match,theft from property,481
+2019-03,Match,theft of auto,47
+2019-03,Match,theft of parts,51
+2019-03,Match,traffic or accident,19
+2019-03,Match,violent crime,99
+2019-04,Crime,drug related,134
+2019-04,Crime,fraud,11
+2019-04,Crime,human trafficking,1
+2019-04,Crime,other,180
+2019-04,Crime,runaway,1
+2019-04,Crime,sex crime,1
+2019-04,Crime,sexual assault,10
+2019-04,Crime,theft from auto,17
+2019-04,Crime,theft from person,4
+2019-04,Crime,theft from property,71
+2019-04,Crime,theft of auto,6
+2019-04,Crime,theft of parts,7
+2019-04,Crime,traffic or accident,58
+2019-04,Crime,violent crime,20
+2019-04,Dispatch,no crime report,16295
+2019-04,Match,domestic incident,1
+2019-04,Match,drug related,26
+2019-04,Match,fraud,70
+2019-04,Match,other,364
+2019-04,Match,runaway,16
+2019-04,Match,sexual assault,15
+2019-04,Match,theft from auto,259
+2019-04,Match,theft from person,18
+2019-04,Match,theft from property,445
+2019-04,Match,theft of auto,46
+2019-04,Match,theft of parts,58
+2019-04,Match,traffic or accident,21
+2019-04,Match,violent crime,96
+2019-05,Crime,domestic incident,4
+2019-05,Crime,drug related,112
+2019-05,Crime,fraud,15
+2019-05,Crime,human trafficking,1
+2019-05,Crime,other,169
+2019-05,Crime,runaway,1
+2019-05,Crime,sex crime,1
+2019-05,Crime,sexual assault,13
+2019-05,Crime,theft from auto,29
+2019-05,Crime,theft from person,8
+2019-05,Crime,theft from property,77
+2019-05,Crime,theft of auto,2
+2019-05,Crime,theft of parts,6
+2019-05,Crime,traffic or accident,62
+2019-05,Crime,violent crime,26
+2019-05,Dispatch,no crime report,17895
+2019-05,Match,domestic incident,3
+2019-05,Match,drug related,22
+2019-05,Match,fraud,62
+2019-05,Match,other,357
+2019-05,Match,runaway,21
+2019-05,Match,sex crime,1
+2019-05,Match,sexual assault,18
+2019-05,Match,theft from auto,256
+2019-05,Match,theft from person,18
+2019-05,Match,theft from property,494
+2019-05,Match,theft of auto,40
+2019-05,Match,theft of parts,78
+2019-05,Match,traffic or accident,12
+2019-05,Match,violent crime,107
+2019-06,Crime,drug related,96
+2019-06,Crime,fraud,16
+2019-06,Crime,human trafficking,2
+2019-06,Crime,other,124
+2019-06,Crime,runaway,3
+2019-06,Crime,sex crime,5
+2019-06,Crime,sex materials,1
+2019-06,Crime,sexual assault,13
+2019-06,Crime,theft from auto,25
+2019-06,Crime,theft from person,4
+2019-06,Crime,theft from property,67
+2019-06,Crime,theft of auto,3
+2019-06,Crime,theft of parts,1
+2019-06,Crime,traffic or accident,48
+2019-06,Crime,violent crime,20
+2019-06,Dispatch,no crime report,16705
+2019-06,Match,domestic incident,3
+2019-06,Match,drug related,22
+2019-06,Match,fraud,73
+2019-06,Match,other,345
+2019-06,Match,runaway,19
+2019-06,Match,sexual assault,17
+2019-06,Match,theft from auto,260
+2019-06,Match,theft from person,19
+2019-06,Match,theft from property,439
+2019-06,Match,theft of auto,49
+2019-06,Match,theft of parts,52
+2019-06,Match,traffic or accident,23
+2019-06,Match,violent crime,109
+2019-07,Crime,drug related,116
+2019-07,Crime,fraud,16
+2019-07,Crime,other,126
+2019-07,Crime,sex crime,3
+2019-07,Crime,sexual assault,9
+2019-07,Crime,theft from auto,23
+2019-07,Crime,theft from person,4
+2019-07,Crime,theft from property,70
+2019-07,Crime,theft of auto,8
+2019-07,Crime,theft of parts,3
+2019-07,Crime,traffic or accident,49
+2019-07,Crime,violent crime,17
+2019-07,Dispatch,no crime report,17138
+2019-07,Match,domestic incident,8
+2019-07,Match,drug related,24
+2019-07,Match,fraud,86
+2019-07,Match,other,371
+2019-07,Match,runaway,9
+2019-07,Match,sex crime,1
+2019-07,Match,sexual assault,15
+2019-07,Match,theft from auto,340
+2019-07,Match,theft from person,23
+2019-07,Match,theft from property,510
+2019-07,Match,theft of auto,56
+2019-07,Match,theft of parts,48
+2019-07,Match,traffic or accident,16
+2019-07,Match,violent crime,113
+2019-08,Crime,drug related,101
+2019-08,Crime,fraud,10
+2019-08,Crime,other,150
+2019-08,Crime,runaway,1
+2019-08,Crime,sex crime,2
+2019-08,Crime,sexual assault,13
+2019-08,Crime,theft from auto,30
+2019-08,Crime,theft from person,11
+2019-08,Crime,theft from property,82
+2019-08,Crime,theft of auto,5
+2019-08,Crime,theft of parts,3
+2019-08,Crime,traffic or accident,51
+2019-08,Crime,violent crime,14
+2019-08,Dispatch,no crime report,16480
+2019-08,Match,domestic incident,2
+2019-08,Match,drug related,26
+2019-08,Match,fraud,84
+2019-08,Match,other,363
+2019-08,Match,runaway,8
+2019-08,Match,sexual assault,12
+2019-08,Match,theft from auto,365
+2019-08,Match,theft from person,18
+2019-08,Match,theft from property,497
+2019-08,Match,theft of auto,57
+2019-08,Match,theft of parts,59
+2019-08,Match,traffic or accident,14
+2019-08,Match,violent crime,93
+2019-09,Crime,domestic incident,1
+2019-09,Crime,drug related,80
+2019-09,Crime,fraud,9
+2019-09,Crime,other,138
+2019-09,Crime,runaway,2
+2019-09,Crime,sex crime,2
+2019-09,Crime,sexual assault,11
+2019-09,Crime,theft from auto,18
+2019-09,Crime,theft from person,1
+2019-09,Crime,theft from property,76
+2019-09,Crime,theft of auto,6
+2019-09,Crime,theft of parts,2
+2019-09,Crime,traffic or accident,55
+2019-09,Crime,violent crime,23
+2019-09,Dispatch,no crime report,15999
+2019-09,Match,domestic incident,3
+2019-09,Match,drug related,18
+2019-09,Match,fraud,64
+2019-09,Match,other,336
+2019-09,Match,runaway,8
+2019-09,Match,sexual assault,10
+2019-09,Match,theft from auto,259
+2019-09,Match,theft from person,21
+2019-09,Match,theft from property,492
+2019-09,Match,theft of auto,45
+2019-09,Match,theft of parts,72
+2019-09,Match,traffic or accident,29
+2019-09,Match,violent crime,103
+2019-10,Crime,domestic incident,3
+2019-10,Crime,drug related,72
+2019-10,Crime,fraud,10
+2019-10,Crime,other,167
+2019-10,Crime,runaway,2
+2019-10,Crime,sexual assault,7
+2019-10,Crime,theft from auto,37
+2019-10,Crime,theft from person,8
+2019-10,Crime,theft from property,67
+2019-10,Crime,theft of auto,8
+2019-10,Crime,theft of parts,3
+2019-10,Crime,traffic or accident,46
+2019-10,Crime,violent crime,28
+2019-10,Dispatch,no crime report,16632
+2019-10,Match,domestic incident,5
+2019-10,Match,drug related,22
+2019-10,Match,fraud,68
+2019-10,Match,other,326
+2019-10,Match,runaway,23
+2019-10,Match,sex crime,1
+2019-10,Match,sexual assault,18
+2019-10,Match,theft from auto,311
+2019-10,Match,theft from person,27
+2019-10,Match,theft from property,520
+2019-10,Match,theft of auto,42
+2019-10,Match,theft of parts,61
+2019-10,Match,traffic or accident,13
+2019-10,Match,violent crime,99
+2019-11,Crime,domestic incident,1
+2019-11,Crime,drug related,88
+2019-11,Crime,fraud,16
+2019-11,Crime,human trafficking,1
+2019-11,Crime,other,135
+2019-11,Crime,runaway,1
+2019-11,Crime,sex crime,3
+2019-11,Crime,sex materials,1
+2019-11,Crime,sexual assault,6
+2019-11,Crime,theft from auto,34
+2019-11,Crime,theft from person,3
+2019-11,Crime,theft from property,95
+2019-11,Crime,theft of auto,4
+2019-11,Crime,theft of parts,1
+2019-11,Crime,traffic or accident,73
+2019-11,Crime,violent crime,26
+2019-11,Dispatch,no crime report,15528
+2019-11,Match,domestic incident,1
+2019-11,Match,drug related,15
+2019-11,Match,fraud,83
+2019-11,Match,other,324
+2019-11,Match,runaway,12
+2019-11,Match,sex materials,2
+2019-11,Match,sexual assault,23
+2019-11,Match,theft from auto,312
+2019-11,Match,theft from person,22
+2019-11,Match,theft from property,512
+2019-11,Match,theft of auto,53
+2019-11,Match,theft of parts,62
+2019-11,Match,traffic or accident,23
+2019-11,Match,violent crime,94
+2019-12,Crime,domestic incident,1
+2019-12,Crime,drug related,90
+2019-12,Crime,fraud,11
+2019-12,Crime,human trafficking,1
+2019-12,Crime,other,124
+2019-12,Crime,runaway,1
+2019-12,Crime,sex crime,3
+2019-12,Crime,sexual assault,6
+2019-12,Crime,theft from auto,28
+2019-12,Crime,theft from person,7
+2019-12,Crime,theft from property,65
+2019-12,Crime,theft of auto,3
+2019-12,Crime,theft of parts,6
+2019-12,Crime,traffic or accident,60
+2019-12,Crime,violent crime,20
+2019-12,Dispatch,no crime report,15572
+2019-12,Match,abduction,1
+2019-12,Match,domestic incident,3
+2019-12,Match,drug related,30
+2019-12,Match,fraud,96
+2019-12,Match,other,328
+2019-12,Match,runaway,11
+2019-12,Match,sexual assault,18
+2019-12,Match,theft from auto,316
+2019-12,Match,theft from person,18
+2019-12,Match,theft from property,493
+2019-12,Match,theft of auto,49
+2019-12,Match,theft of parts,57
+2019-12,Match,traffic or accident,23
+2019-12,Match,violent crime,94
+2020-01,Crime,domestic incident,2
+2020-01,Crime,drug related,97
+2020-01,Crime,fraud,18
+2020-01,Crime,human trafficking,1
+2020-01,Crime,other,163
+2020-01,Crime,runaway,2
+2020-01,Crime,sex crime,6
+2020-01,Crime,sexual assault,12
+2020-01,Crime,theft from auto,41
+2020-01,Crime,theft from person,6
+2020-01,Crime,theft from property,80
+2020-01,Crime,theft of auto,6
+2020-01,Crime,theft of parts,2
+2020-01,Crime,traffic or accident,33
+2020-01,Crime,violent crime,18
+2020-01,Dispatch,no crime report,14936
+2020-01,Match,drug related,32
+2020-01,Match,fraud,119
+2020-01,Match,other,327
+2020-01,Match,runaway,10
+2020-01,Match,sexual assault,19
+2020-01,Match,theft from auto,317
+2020-01,Match,theft from person,22
+2020-01,Match,theft from property,469
+2020-01,Match,theft of auto,44
+2020-01,Match,theft of parts,51
+2020-01,Match,traffic or accident,20
+2020-01,Match,violent crime,94
+2020-02,Crime,domestic incident,1
+2020-02,Crime,drug related,82
+2020-02,Crime,fraud,12
+2020-02,Crime,other,162
+2020-02,Crime,runaway,3
+2020-02,Crime,sex crime,9
+2020-02,Crime,sexual assault,5
+2020-02,Crime,theft from auto,25
+2020-02,Crime,theft from person,3
+2020-02,Crime,theft from property,67
+2020-02,Crime,theft of auto,3
+2020-02,Crime,theft of parts,4
+2020-02,Crime,traffic or accident,50
+2020-02,Crime,violent crime,11
+2020-02,Dispatch,no crime report,14084
+2020-02,Match,domestic incident,3
+2020-02,Match,drug related,21
+2020-02,Match,fraud,87
+2020-02,Match,other,338
+2020-02,Match,runaway,14
+2020-02,Match,sexual assault,16
+2020-02,Match,theft from auto,235
+2020-02,Match,theft from person,20
+2020-02,Match,theft from property,450
+2020-02,Match,theft of auto,46
+2020-02,Match,theft of parts,46
+2020-02,Match,traffic or accident,23
+2020-02,Match,violent crime,86
+2020-03,Crime,drug related,73
+2020-03,Crime,fraud,4
+2020-03,Crime,other,134
+2020-03,Crime,runaway,6
+2020-03,Crime,sex crime,2
+2020-03,Crime,sexual assault,3
+2020-03,Crime,theft from auto,29
+2020-03,Crime,theft from person,1
+2020-03,Crime,theft from property,60
+2020-03,Crime,theft of auto,7
+2020-03,Crime,theft of parts,3
+2020-03,Crime,traffic or accident,20
+2020-03,Crime,violent crime,10
+2020-03,Dispatch,no crime report,14238
+2020-03,Match,domestic incident,2
+2020-03,Match,drug related,18
+2020-03,Match,fraud,86
+2020-03,Match,other,322
+2020-03,Match,runaway,20
+2020-03,Match,sex materials,1
+2020-03,Match,sexual assault,14
+2020-03,Match,theft from auto,306
+2020-03,Match,theft from person,17
+2020-03,Match,theft from property,451
+2020-03,Match,theft of auto,67
+2020-03,Match,theft of parts,85
+2020-03,Match,traffic or accident,14
+2020-03,Match,violent crime,104
+2020-04,Crime,drug related,12
+2020-04,Crime,fraud,7
+2020-04,Crime,human trafficking,1
+2020-04,Crime,other,52
+2020-04,Crime,runaway,2
+2020-04,Crime,sex materials,1
+2020-04,Crime,sexual assault,5
+2020-04,Crime,theft from auto,27
+2020-04,Crime,theft from person,3
+2020-04,Crime,theft from property,36
+2020-04,Crime,theft of auto,6
+2020-04,Crime,theft of parts,1
+2020-04,Crime,traffic or accident,5
+2020-04,Crime,violent crime,8
+2020-04,Dispatch,no crime report,12109
+2020-04,Match,domestic incident,2
+2020-04,Match,drug related,14
+2020-04,Match,fraud,91
+2020-04,Match,other,241
+2020-04,Match,runaway,12
+2020-04,Match,sexual assault,17
+2020-04,Match,theft from auto,342
+2020-04,Match,theft from person,7
+2020-04,Match,theft from property,331
+2020-04,Match,theft of auto,52
+2020-04,Match,theft of parts,33
+2020-04,Match,traffic or accident,15
+2020-04,Match,violent crime,72
+2020-05,Crime,domestic incident,1
+2020-05,Crime,drug related,23
+2020-05,Crime,fraud,10
+2020-05,Crime,human trafficking,1
+2020-05,Crime,other,81
+2020-05,Crime,runaway,2
+2020-05,Crime,sex crime,1
+2020-05,Crime,sexual assault,6
+2020-05,Crime,theft from auto,33
+2020-05,Crime,theft from person,3
+2020-05,Crime,theft from property,49
+2020-05,Crime,theft of auto,5
+2020-05,Crime,theft of parts,2
+2020-05,Crime,traffic or accident,10
+2020-05,Crime,violent crime,10
+2020-05,Dispatch,no crime report,13920
+2020-05,Match,domestic incident,5
+2020-05,Match,drug related,26
+2020-05,Match,fraud,87
+2020-05,Match,other,299
+2020-05,Match,runaway,11
+2020-05,Match,sexual assault,22
+2020-05,Match,theft from auto,339
+2020-05,Match,theft from person,12
+2020-05,Match,theft from property,475
+2020-05,Match,theft of auto,59
+2020-05,Match,theft of parts,59
+2020-05,Match,traffic or accident,7
+2020-05,Match,violent crime,78
+2020-06,Crime,drug related,17
+2020-06,Crime,fraud,5
+2020-06,Crime,other,79
+2020-06,Crime,sexual assault,6
+2020-06,Crime,theft from auto,22
+2020-06,Crime,theft from person,2
+2020-06,Crime,theft from property,50
+2020-06,Crime,theft of auto,7
+2020-06,Crime,theft of parts,8
+2020-06,Crime,traffic or accident,20
+2020-06,Crime,violent crime,14
+2020-06,Dispatch,no crime report,13976
+2020-06,Match,domestic incident,3
+2020-06,Match,drug related,9
+2020-06,Match,fraud,98
+2020-06,Match,other,286
+2020-06,Match,runaway,8
+2020-06,Match,sexual assault,8
+2020-06,Match,theft from auto,361
+2020-06,Match,theft from person,12
+2020-06,Match,theft from property,493
+2020-06,Match,theft of auto,62
+2020-06,Match,theft of parts,81
+2020-06,Match,traffic or accident,15
+2020-06,Match,violent crime,90
+2020-07,Crime,abduction,2
+2020-07,Crime,domestic incident,1
+2020-07,Crime,drug related,15
+2020-07,Crime,fraud,8
+2020-07,Crime,other,66
+2020-07,Crime,sex materials,1
+2020-07,Crime,sexual assault,12
+2020-07,Crime,theft from auto,16
+2020-07,Crime,theft from person,3
+2020-07,Crime,theft from property,46
+2020-07,Crime,theft of auto,5
+2020-07,Crime,theft of parts,3
+2020-07,Crime,traffic or accident,17
+2020-07,Crime,violent crime,10
+2020-07,Dispatch,no crime report,14892
+2020-07,Match,domestic incident,3
+2020-07,Match,drug related,17
+2020-07,Match,fraud,117
+2020-07,Match,other,325
+2020-07,Match,runaway,7
+2020-07,Match,sexual assault,19
+2020-07,Match,theft from auto,419
+2020-07,Match,theft from person,20
+2020-07,Match,theft from property,552
+2020-07,Match,theft of auto,89
+2020-07,Match,theft of parts,103
+2020-07,Match,traffic or accident,15
+2020-07,Match,violent crime,90
+2020-08,Crime,drug related,16
+2020-08,Crime,fraud,21
+2020-08,Crime,other,73
+2020-08,Crime,sexual assault,4
+2020-08,Crime,theft from auto,24
+2020-08,Crime,theft from person,4
+2020-08,Crime,theft from property,59
+2020-08,Crime,theft of auto,3
+2020-08,Crime,theft of parts,7
+2020-08,Crime,traffic or accident,18
+2020-08,Crime,violent crime,12
+2020-08,Dispatch,no crime report,14623
+2020-08,Match,domestic incident,4
+2020-08,Match,drug related,13
+2020-08,Match,fraud,114
+2020-08,Match,other,282
+2020-08,Match,runaway,8
+2020-08,Match,sexual assault,23
+2020-08,Match,theft from auto,337
+2020-08,Match,theft from person,19
+2020-08,Match,theft from property,575
+2020-08,Match,theft of auto,90
+2020-08,Match,theft of parts,105
+2020-08,Match,traffic or accident,16
+2020-08,Match,violent crime,106
+2020-09,Crime,drug related,31
+2020-09,Crime,fraud,10
+2020-09,Crime,other,72
+2020-09,Crime,sexual assault,11
+2020-09,Crime,theft from auto,36
+2020-09,Crime,theft from person,2
+2020-09,Crime,theft from property,48
+2020-09,Crime,theft of auto,8
+2020-09,Crime,theft of parts,3
+2020-09,Crime,traffic or accident,25
+2020-09,Crime,violent crime,7
+2020-09,Dispatch,no crime report,14034
+2020-09,Match,domestic incident,5
+2020-09,Match,drug related,19
+2020-09,Match,fraud,118
+2020-09,Match,other,316
+2020-09,Match,runaway,9
+2020-09,Match,sexual assault,12
+2020-09,Match,theft from auto,365
+2020-09,Match,theft from person,17
+2020-09,Match,theft from property,541
+2020-09,Match,theft of auto,87
+2020-09,Match,theft of parts,105
+2020-09,Match,traffic or accident,15
+2020-09,Match,violent crime,86
+2020-10,Crime,drug related,18
+2020-10,Crime,fraud,13
+2020-10,Crime,human trafficking,1
+2020-10,Crime,other,60
+2020-10,Crime,sex crime,3
+2020-10,Crime,sexual assault,9
+2020-10,Crime,theft from auto,18
+2020-10,Crime,theft from person,2
+2020-10,Crime,theft from property,46
+2020-10,Crime,theft of parts,2
+2020-10,Crime,traffic or accident,18
+2020-10,Crime,violent crime,4
+2020-10,Dispatch,no crime report,14294
+2020-10,Match,domestic incident,5
+2020-10,Match,drug related,15
+2020-10,Match,fraud,115
+2020-10,Match,other,330
+2020-10,Match,runaway,15
+2020-10,Match,sexual assault,13
+2020-10,Match,theft from auto,295
+2020-10,Match,theft from person,30
+2020-10,Match,theft from property,505
+2020-10,Match,theft of auto,79
+2020-10,Match,theft of parts,106
+2020-10,Match,traffic or accident,17
+2020-10,Match,violent crime,80
+2020-11,Crime,domestic incident,1
+2020-11,Crime,drug related,17
+2020-11,Crime,fraud,2
+2020-11,Crime,other,42
+2020-11,Crime,runaway,1
+2020-11,Crime,sexual assault,5
+2020-11,Crime,theft from auto,24
+2020-11,Crime,theft from property,33
+2020-11,Crime,theft of auto,3
+2020-11,Crime,theft of parts,1
+2020-11,Crime,traffic or accident,19
+2020-11,Crime,violent crime,7
+2020-11,Dispatch,no crime report,13746
+2020-11,Match,abduction,1
+2020-11,Match,domestic incident,1
+2020-11,Match,drug related,10
+2020-11,Match,fraud,136
+2020-11,Match,other,326
+2020-11,Match,runaway,13
+2020-11,Match,sexual assault,13
+2020-11,Match,theft from auto,323
+2020-11,Match,theft from person,24
+2020-11,Match,theft from property,499
+2020-11,Match,theft of auto,76
+2020-11,Match,theft of parts,84
+2020-11,Match,traffic or accident,7
+2020-11,Match,violent crime,82
+2020-12,Crime,drug related,17
+2020-12,Crime,fraud,9
+2020-12,Crime,other,58
+2020-12,Crime,runaway,1
+2020-12,Crime,sexual assault,2
+2020-12,Crime,theft from auto,12
+2020-12,Crime,theft from person,3
+2020-12,Crime,theft from property,37
+2020-12,Crime,theft of auto,5
+2020-12,Crime,theft of parts,2
+2020-12,Crime,traffic or accident,21
+2020-12,Crime,violent crime,5
+2020-12,Dispatch,no crime report,13172
+2020-12,Match,domestic incident,3
+2020-12,Match,drug related,5
+2020-12,Match,fraud,133
+2020-12,Match,other,293
+2020-12,Match,runaway,7
+2020-12,Match,sex crime,1
+2020-12,Match,sexual assault,13
+2020-12,Match,theft from auto,308
+2020-12,Match,theft from person,16
+2020-12,Match,theft from property,450
+2020-12,Match,theft of auto,79
+2020-12,Match,theft of parts,143
+2020-12,Match,traffic or accident,16
+2020-12,Match,violent crime,79
+2021-01,Crime,domestic incident,1
+2021-01,Crime,drug related,18
+2021-01,Crime,fraud,10
+2021-01,Crime,other,50
+2021-01,Crime,runaway,1
+2021-01,Crime,sexual assault,4
+2021-01,Crime,theft from auto,19
+2021-01,Crime,theft from person,4
+2021-01,Crime,theft from property,38
+2021-01,Crime,theft of auto,4
+2021-01,Crime,theft of parts,4
+2021-01,Crime,traffic or accident,16
+2021-01,Crime,violent crime,6
+2021-01,Dispatch,no crime report,12460
+2021-01,Match,domestic incident,2
+2021-01,Match,drug related,13
+2021-01,Match,fraud,98
+2021-01,Match,other,269
+2021-01,Match,runaway,7
+2021-01,Match,sexual assault,11
+2021-01,Match,theft from auto,280
+2021-01,Match,theft from person,15
+2021-01,Match,theft from property,393
+2021-01,Match,theft of auto,73
+2021-01,Match,theft of parts,100
+2021-01,Match,traffic or accident,12
+2021-01,Match,violent crime,80
+2021-02,Crime,drug related,15
+2021-02,Crime,fraud,11
+2021-02,Crime,other,45
+2021-02,Crime,runaway,2
+2021-02,Crime,sexual assault,4
+2021-02,Crime,theft from auto,28
+2021-02,Crime,theft from person,3
+2021-02,Crime,theft from property,37
+2021-02,Crime,theft of auto,2
+2021-02,Crime,theft of parts,1
+2021-02,Crime,traffic or accident,9
+2021-02,Crime,violent crime,12
+2021-02,Dispatch,no crime report,11049
+2021-02,Match,drug related,3
+2021-02,Match,fraud,97
+2021-02,Match,human trafficking,1
+2021-02,Match,other,243
+2021-02,Match,runaway,9
+2021-02,Match,sex materials,1
+2021-02,Match,sexual assault,12
+2021-02,Match,theft from auto,207
+2021-02,Match,theft from person,16
+2021-02,Match,theft from property,326
+2021-02,Match,theft of auto,55
+2021-02,Match,theft of parts,54
+2021-02,Match,traffic or accident,9
+2021-02,Match,violent crime,57
+2021-03,Crime,drug related,8
+2021-03,Crime,fraud,11
+2021-03,Crime,other,55
+2021-03,Crime,sex crime,1
+2021-03,Crime,sexual assault,2
+2021-03,Crime,theft from auto,18
+2021-03,Crime,theft from person,3
+2021-03,Crime,theft from property,33
+2021-03,Crime,theft of auto,6
+2021-03,Crime,theft of parts,5
+2021-03,Crime,traffic or accident,20
+2021-03,Crime,violent crime,11
+2021-03,Dispatch,no crime report,13835
+2021-03,Match,drug related,10
+2021-03,Match,fraud,108
+2021-03,Match,other,262
+2021-03,Match,runaway,6
+2021-03,Match,sexual assault,11
+2021-03,Match,theft from auto,236
+2021-03,Match,theft from person,13
+2021-03,Match,theft from property,379
+2021-03,Match,theft of auto,67
+2021-03,Match,theft of parts,119
+2021-03,Match,traffic or accident,10
+2021-03,Match,violent crime,77
+2021-04,Crime,drug related,10
+2021-04,Crime,fraud,11
+2021-04,Crime,other,70
+2021-04,Crime,runaway,1
+2021-04,Crime,sex crime,2
+2021-04,Crime,sexual assault,7
+2021-04,Crime,theft from auto,10
+2021-04,Crime,theft from person,3
+2021-04,Crime,theft from property,38
+2021-04,Crime,theft of auto,8
+2021-04,Crime,theft of parts,7
+2021-04,Crime,traffic or accident,7
+2021-04,Crime,violent crime,8
+2021-04,Dispatch,no crime report,13452
+2021-04,Match,abduction,1
+2021-04,Match,domestic incident,1
+2021-04,Match,drug related,10
+2021-04,Match,fraud,96
+2021-04,Match,other,265
+2021-04,Match,runaway,7
+2021-04,Match,sexual assault,21
+2021-04,Match,theft from auto,205
+2021-04,Match,theft from person,6
+2021-04,Match,theft from property,389
+2021-04,Match,theft of auto,76
+2021-04,Match,theft of parts,111
+2021-04,Match,traffic or accident,14
+2021-04,Match,violent crime,76
+2021-05,Crime,domestic incident,2
+2021-05,Crime,drug related,10
+2021-05,Crime,fraud,10
+2021-05,Crime,other,61
+2021-05,Crime,sexual assault,3
+2021-05,Crime,theft from auto,25
+2021-05,Crime,theft from person,2
+2021-05,Crime,theft from property,38
+2021-05,Crime,theft of auto,2
+2021-05,Crime,theft of parts,6
+2021-05,Crime,traffic or accident,7
+2021-05,Crime,violent crime,9
+2021-05,Dispatch,no crime report,14699
+2021-05,Match,domestic incident,1
+2021-05,Match,drug related,2
+2021-05,Match,fraud,122
+2021-05,Match,other,288
+2021-05,Match,runaway,5
+2021-05,Match,sexual assault,19
+2021-05,Match,theft from auto,275
+2021-05,Match,theft from person,15
+2021-05,Match,theft from property,435
+2021-05,Match,theft of auto,107
+2021-05,Match,theft of parts,119
+2021-05,Match,traffic or accident,10
+2021-05,Match,violent crime,91
+2021-06,Crime,domestic incident,1
+2021-06,Crime,drug related,2
+2021-06,Crime,fraud,14
+2021-06,Crime,other,64
+2021-06,Crime,runaway,1
+2021-06,Crime,sex crime,2
+2021-06,Crime,sexual assault,11
+2021-06,Crime,theft from auto,13
+2021-06,Crime,theft from person,5
+2021-06,Crime,theft from property,47
+2021-06,Crime,theft of auto,4
+2021-06,Crime,theft of parts,13
+2021-06,Crime,traffic or accident,12
+2021-06,Crime,violent crime,15
+2021-06,Dispatch,no crime report,15085
+2021-06,Match,abduction,1
+2021-06,Match,domestic incident,3
+2021-06,Match,drug related,11
+2021-06,Match,fraud,134
+2021-06,Match,other,281
+2021-06,Match,runaway,9
+2021-06,Match,sexual assault,14
+2021-06,Match,theft from auto,249
+2021-06,Match,theft from person,14
+2021-06,Match,theft from property,429
+2021-06,Match,theft of auto,72
+2021-06,Match,theft of parts,165
+2021-06,Match,traffic or accident,16
+2021-06,Match,violent crime,86
+2021-07,Crime,domestic incident,2
+2021-07,Crime,drug related,19
+2021-07,Crime,fraud,16
+2021-07,Crime,other,72
+2021-07,Crime,sexual assault,6
+2021-07,Crime,theft from auto,17
+2021-07,Crime,theft from person,2
+2021-07,Crime,theft from property,59
+2021-07,Crime,theft of auto,8
+2021-07,Crime,theft of parts,14
+2021-07,Crime,traffic or accident,21
+2021-07,Crime,violent crime,14
+2021-07,Dispatch,no crime report,15456
+2021-07,Match,domestic incident,7
+2021-07,Match,drug related,8
+2021-07,Match,fraud,113
+2021-07,Match,other,298
+2021-07,Match,runaway,11
+2021-07,Match,sexual assault,19
+2021-07,Match,theft from auto,277
+2021-07,Match,theft from person,14
+2021-07,Match,theft from property,480
+2021-07,Match,theft of auto,76
+2021-07,Match,theft of parts,135
+2021-07,Match,traffic or accident,17
+2021-07,Match,violent crime,107
+2021-08,Crime,domestic incident,1
+2021-08,Crime,drug related,13
+2021-08,Crime,fraud,9
+2021-08,Crime,other,78
+2021-08,Crime,runaway,1
+2021-08,Crime,sex crime,6
+2021-08,Crime,sexual assault,7
+2021-08,Crime,theft from auto,14
+2021-08,Crime,theft from person,1
+2021-08,Crime,theft from property,52
+2021-08,Crime,theft of auto,7
+2021-08,Crime,theft of parts,12
+2021-08,Crime,traffic or accident,17
+2021-08,Crime,violent crime,12
+2021-08,Dispatch,no crime report,14981
+2021-08,Match,abduction,1
+2021-08,Match,domestic incident,3
+2021-08,Match,drug related,8
+2021-08,Match,fraud,118
+2021-08,Match,other,306
+2021-08,Match,runaway,3
+2021-08,Match,sex crime,2
+2021-08,Match,sexual assault,16
+2021-08,Match,theft from auto,282
+2021-08,Match,theft from person,12
+2021-08,Match,theft from property,422
+2021-08,Match,theft of auto,114
+2021-08,Match,theft of parts,93
+2021-08,Match,traffic or accident,19
+2021-08,Match,violent crime,76
+2021-09,Crime,domestic incident,1
+2021-09,Crime,drug related,14
+2021-09,Crime,fraud,12
+2021-09,Crime,other,61
+2021-09,Crime,sex crime,2
+2021-09,Crime,sexual assault,7
+2021-09,Crime,theft from auto,19
+2021-09,Crime,theft from person,4
+2021-09,Crime,theft from property,42
+2021-09,Crime,theft of auto,4
+2021-09,Crime,theft of parts,4
+2021-09,Crime,traffic or accident,15
+2021-09,Crime,violent crime,10
+2021-09,Dispatch,no crime report,15008
+2021-09,Match,domestic incident,1
+2021-09,Match,drug related,13
+2021-09,Match,fraud,101
+2021-09,Match,other,329
+2021-09,Match,runaway,11
+2021-09,Match,sex materials,1
+2021-09,Match,sexual assault,30
+2021-09,Match,theft from auto,261
+2021-09,Match,theft from person,13
+2021-09,Match,theft from property,434
+2021-09,Match,theft of auto,87
+2021-09,Match,theft of parts,117
+2021-09,Match,traffic or accident,12
+2021-09,Match,violent crime,118
+2021-10,Crime,drug related,19
+2021-10,Crime,fraud,7
+2021-10,Crime,other,79
+2021-10,Crime,runaway,1
+2021-10,Crime,sexual assault,5
+2021-10,Crime,theft from auto,31
+2021-10,Crime,theft from person,3
+2021-10,Crime,theft from property,59
+2021-10,Crime,theft of auto,6
+2021-10,Crime,theft of parts,6
+2021-10,Crime,traffic or accident,13
+2021-10,Crime,violent crime,10
+2021-10,Dispatch,no crime report,16181
+2021-10,Match,domestic incident,6
+2021-10,Match,drug related,17
+2021-10,Match,fraud,125
+2021-10,Match,human trafficking,1
+2021-10,Match,other,369
+2021-10,Match,runaway,14
+2021-10,Match,sex crime,2
+2021-10,Match,sexual assault,20
+2021-10,Match,theft from auto,311
+2021-10,Match,theft from person,17
+2021-10,Match,theft from property,422
+2021-10,Match,theft of auto,121
+2021-10,Match,theft of parts,108
+2021-10,Match,traffic or accident,14
+2021-10,Match,violent crime,144
+2021-11,Crime,domestic incident,1
+2021-11,Crime,drug related,16
+2021-11,Crime,fraud,11
+2021-11,Crime,human trafficking,1
+2021-11,Crime,other,64
+2021-11,Crime,sex crime,6
+2021-11,Crime,sex materials,1
+2021-11,Crime,sexual assault,13
+2021-11,Crime,theft from auto,8
+2021-11,Crime,theft from person,2
+2021-11,Crime,theft from property,41
+2021-11,Crime,theft of auto,4
+2021-11,Crime,theft of parts,7
+2021-11,Crime,traffic or accident,22
+2021-11,Crime,violent crime,13
+2021-11,Dispatch,no crime report,14438
+2021-11,Match,domestic incident,1
+2021-11,Match,drug related,13
+2021-11,Match,fraud,97
+2021-11,Match,other,308
+2021-11,Match,runaway,13
+2021-11,Match,sexual assault,22
+2021-11,Match,theft from auto,199
+2021-11,Match,theft from person,22
+2021-11,Match,theft from property,425
+2021-11,Match,theft of auto,61
+2021-11,Match,theft of parts,106
+2021-11,Match,traffic or accident,17
+2021-11,Match,violent crime,126
+2021-12,Crime,domestic incident,1
+2021-12,Crime,drug related,17
+2021-12,Crime,fraud,11
+2021-12,Crime,other,59
+2021-12,Crime,sex materials,1
+2021-12,Crime,sexual assault,2
+2021-12,Crime,theft from auto,9
+2021-12,Crime,theft from person,3
+2021-12,Crime,theft from property,47
+2021-12,Crime,theft of auto,5
+2021-12,Crime,theft of parts,9
+2021-12,Crime,traffic or accident,36
+2021-12,Crime,violent crime,10
+2021-12,Dispatch,no crime report,14211
+2021-12,Match,domestic incident,1
+2021-12,Match,drug related,9
+2021-12,Match,fraud,118
+2021-12,Match,other,337
+2021-12,Match,runaway,18
+2021-12,Match,sexual assault,20
+2021-12,Match,theft from auto,194
+2021-12,Match,theft from person,16
+2021-12,Match,theft from property,466
+2021-12,Match,theft of auto,76
+2021-12,Match,theft of parts,160
+2021-12,Match,traffic or accident,13
+2021-12,Match,violent crime,101
+2022-01,Crime,drug related,24
+2022-01,Crime,fraud,14
+2022-01,Crime,human trafficking,1
+2022-01,Crime,other,55
+2022-01,Crime,runaway,2
+2022-01,Crime,sex crime,2
+2022-01,Crime,sexual assault,12
+2022-01,Crime,theft from auto,15
+2022-01,Crime,theft from person,8
+2022-01,Crime,theft from property,58
+2022-01,Crime,theft of auto,5
+2022-01,Crime,theft of parts,4
+2022-01,Crime,traffic or accident,13
+2022-01,Crime,violent crime,11
+2022-01,Dispatch,no crime report,13157
+2022-01,Match,abduction,1
+2022-01,Match,drug related,9
+2022-01,Match,fraud,168
+2022-01,Match,human trafficking,1
+2022-01,Match,other,338
+2022-01,Match,runaway,9
+2022-01,Match,sexual assault,21
+2022-01,Match,theft from auto,152
+2022-01,Match,theft from person,24
+2022-01,Match,theft from property,413
+2022-01,Match,theft of auto,62
+2022-01,Match,theft of parts,110
+2022-01,Match,traffic or accident,10
+2022-01,Match,violent crime,95
+2022-02,Crime,drug related,25
+2022-02,Crime,fraud,18
+2022-02,Crime,human trafficking,1
+2022-02,Crime,other,71
+2022-02,Crime,sex crime,6
+2022-02,Crime,sexual assault,6
+2022-02,Crime,theft from auto,14
+2022-02,Crime,theft from person,2
+2022-02,Crime,theft from property,51
+2022-02,Crime,theft of auto,3
+2022-02,Crime,theft of parts,9
+2022-02,Crime,traffic or accident,19
+2022-02,Crime,violent crime,10
+2022-02,Dispatch,no crime report,12979
+2022-02,Match,abduction,2
+2022-02,Match,domestic incident,1
+2022-02,Match,drug related,18
+2022-02,Match,fraud,151
+2022-02,Match,other,312
+2022-02,Match,runaway,15
+2022-02,Match,sex materials,1
+2022-02,Match,sexual assault,25
+2022-02,Match,theft from auto,141
+2022-02,Match,theft from person,17
+2022-02,Match,theft from property,375
+2022-02,Match,theft of auto,72
+2022-02,Match,theft of parts,138
+2022-02,Match,traffic or accident,12
+2022-02,Match,violent crime,85
+2022-03,Crime,domestic incident,3
+2022-03,Crime,drug related,32
+2022-03,Crime,fraud,7
+2022-03,Crime,human trafficking,2
+2022-03,Crime,other,82
+2022-03,Crime,runaway,2
+2022-03,Crime,sex crime,4
+2022-03,Crime,sex materials,1
+2022-03,Crime,sexual assault,5
+2022-03,Crime,theft from auto,22
+2022-03,Crime,theft from person,3
+2022-03,Crime,theft from property,58
+2022-03,Crime,theft of auto,4
+2022-03,Crime,theft of parts,8
+2022-03,Crime,traffic or accident,28
+2022-03,Crime,violent crime,12
+2022-03,Dispatch,no crime report,14273
+2022-03,Match,domestic incident,5
+2022-03,Match,drug related,21
+2022-03,Match,fraud,166
+2022-03,Match,other,328
+2022-03,Match,runaway,16
+2022-03,Match,sex crime,1
+2022-03,Match,sex materials,2
+2022-03,Match,sexual assault,31
+2022-03,Match,theft from auto,175
+2022-03,Match,theft from person,18
+2022-03,Match,theft from property,465
+2022-03,Match,theft of auto,78
+2022-03,Match,theft of parts,136
+2022-03,Match,traffic or accident,10
+2022-03,Match,violent crime,91
+2022-04,Crime,drug related,20
+2022-04,Crime,fraud,12
+2022-04,Crime,other,80
+2022-04,Crime,runaway,2
+2022-04,Crime,sex crime,1
+2022-04,Crime,sexual assault,5
+2022-04,Crime,theft from auto,12
+2022-04,Crime,theft from person,2
+2022-04,Crime,theft from property,67
+2022-04,Crime,theft of auto,3
+2022-04,Crime,theft of parts,6
+2022-04,Crime,traffic or accident,20
+2022-04,Crime,violent crime,13
+2022-04,Dispatch,no crime report,14356
+2022-04,Match,domestic incident,1
+2022-04,Match,drug related,16
+2022-04,Match,fraud,116
+2022-04,Match,other,314
+2022-04,Match,runaway,14
+2022-04,Match,sexual assault,21
+2022-04,Match,theft from auto,142
+2022-04,Match,theft from person,16
+2022-04,Match,theft from property,432
+2022-04,Match,theft of auto,61
+2022-04,Match,theft of parts,127
+2022-04,Match,traffic or accident,10
+2022-04,Match,violent crime,107
+2022-05,Crime,drug related,28
+2022-05,Crime,fraud,14
+2022-05,Crime,other,88
+2022-05,Crime,sex crime,3
+2022-05,Crime,sexual assault,7
+2022-05,Crime,theft from auto,21
+2022-05,Crime,theft from person,3
+2022-05,Crime,theft from property,71
+2022-05,Crime,theft of auto,3
+2022-05,Crime,theft of parts,8
+2022-05,Crime,traffic or accident,15
+2022-05,Crime,violent crime,15
+2022-05,Dispatch,no crime report,15737
+2022-05,Match,domestic incident,3
+2022-05,Match,drug related,16
+2022-05,Match,fraud,136
+2022-05,Match,other,322
+2022-05,Match,runaway,13
+2022-05,Match,sexual assault,21
+2022-05,Match,theft from auto,249
+2022-05,Match,theft from person,18
+2022-05,Match,theft from property,452
+2022-05,Match,theft of auto,74
+2022-05,Match,theft of parts,128
+2022-05,Match,traffic or accident,11
+2022-05,Match,violent crime,95
+2022-06,Crime,domestic incident,1
+2022-06,Crime,drug related,20
+2022-06,Crime,fraud,8
+2022-06,Crime,other,73
+2022-06,Crime,sex crime,2
+2022-06,Crime,sexual assault,3
+2022-06,Crime,theft from auto,19
+2022-06,Crime,theft from person,3
+2022-06,Crime,theft from property,64
+2022-06,Crime,theft of auto,5
+2022-06,Crime,theft of parts,11
+2022-06,Crime,traffic or accident,23
+2022-06,Crime,violent crime,10
+2022-06,Dispatch,no crime report,15632
+2022-06,Match,abduction,1
+2022-06,Match,domestic incident,2
+2022-06,Match,drug related,7
+2022-06,Match,fraud,125
+2022-06,Match,other,313
+2022-06,Match,runaway,12
+2022-06,Match,sexual assault,23
+2022-06,Match,theft from auto,182
+2022-06,Match,theft from person,18
+2022-06,Match,theft from property,428
+2022-06,Match,theft of auto,78
+2022-06,Match,theft of parts,147
+2022-06,Match,traffic or accident,11
+2022-06,Match,violent crime,92
+2022-07,Crime,domestic incident,1
+2022-07,Crime,drug related,25
+2022-07,Crime,fraud,12
+2022-07,Crime,other,73
+2022-07,Crime,runaway,1
+2022-07,Crime,sex crime,1
+2022-07,Crime,sexual assault,4
+2022-07,Crime,theft from auto,21
+2022-07,Crime,theft from person,4
+2022-07,Crime,theft from property,56
+2022-07,Crime,theft of auto,5
+2022-07,Crime,theft of parts,2
+2022-07,Crime,traffic or accident,15
+2022-07,Crime,violent crime,16
+2022-07,Dispatch,no crime report,15346
+2022-07,Match,domestic incident,1
+2022-07,Match,drug related,5
+2022-07,Match,fraud,151
+2022-07,Match,other,339
+2022-07,Match,runaway,14
+2022-07,Match,sexual assault,16
+2022-07,Match,theft from auto,203
+2022-07,Match,theft from person,26
+2022-07,Match,theft from property,469
+2022-07,Match,theft of auto,71
+2022-07,Match,theft of parts,141
+2022-07,Match,traffic or accident,11
+2022-07,Match,violent crime,87
+2022-08,Crime,drug related,17
+2022-08,Crime,fraud,13
+2022-08,Crime,human trafficking,1
+2022-08,Crime,other,84
+2022-08,Crime,runaway,1
+2022-08,Crime,sex crime,2
+2022-08,Crime,sexual assault,6
+2022-08,Crime,theft from auto,18
+2022-08,Crime,theft from person,2
+2022-08,Crime,theft from property,87
+2022-08,Crime,theft of auto,6
+2022-08,Crime,theft of parts,4
+2022-08,Crime,traffic or accident,13
+2022-08,Crime,violent crime,15
+2022-08,Dispatch,no crime report,15023
+2022-08,Match,domestic incident,3
+2022-08,Match,drug related,4
+2022-08,Match,fraud,157
+2022-08,Match,other,294
+2022-08,Match,runaway,5
+2022-08,Match,sexual assault,21
+2022-08,Match,theft from auto,238
+2022-08,Match,theft from person,19
+2022-08,Match,theft from property,474
+2022-08,Match,theft of auto,83
+2022-08,Match,theft of parts,188
+2022-08,Match,traffic or accident,9
+2022-08,Match,violent crime,95
+2022-09,Crime,drug related,18
+2022-09,Crime,fraud,13
+2022-09,Crime,other,82
+2022-09,Crime,sexual assault,6
+2022-09,Crime,theft from auto,14
+2022-09,Crime,theft from person,2
+2022-09,Crime,theft from property,68
+2022-09,Crime,theft of auto,5
+2022-09,Crime,theft of parts,10
+2022-09,Crime,traffic or accident,16
+2022-09,Crime,violent crime,15
+2022-09,Dispatch,no crime report,14529
+2022-09,Match,domestic incident,2
+2022-09,Match,drug related,18
+2022-09,Match,fraud,157
+2022-09,Match,other,338
+2022-09,Match,runaway,9
+2022-09,Match,sexual assault,19
+2022-09,Match,theft from auto,250
+2022-09,Match,theft from person,22
+2022-09,Match,theft from property,464
+2022-09,Match,theft of auto,105
+2022-09,Match,theft of parts,156
+2022-09,Match,traffic or accident,12
+2022-09,Match,violent crime,106
+2022-10,Crime,drug related,27
+2022-10,Crime,fraud,19
+2022-10,Crime,human trafficking,1
+2022-10,Crime,other,77
+2022-10,Crime,runaway,1
+2022-10,Crime,sex crime,2
+2022-10,Crime,sex materials,2
+2022-10,Crime,sexual assault,6
+2022-10,Crime,theft from auto,17
+2022-10,Crime,theft from person,2
+2022-10,Crime,theft from property,57
+2022-10,Crime,theft of auto,4
+2022-10,Crime,theft of parts,4
+2022-10,Crime,traffic or accident,17
+2022-10,Crime,violent crime,11
+2022-10,Dispatch,no crime report,15201
+2022-10,Match,domestic incident,1
+2022-10,Match,drug related,15
+2022-10,Match,fraud,174
+2022-10,Match,other,325
+2022-10,Match,runaway,6
+2022-10,Match,sex materials,2
+2022-10,Match,sexual assault,20
+2022-10,Match,theft from auto,262
+2022-10,Match,theft from person,22
+2022-10,Match,theft from property,500
+2022-10,Match,theft of auto,79
+2022-10,Match,theft of parts,148
+2022-10,Match,traffic or accident,7
+2022-10,Match,violent crime,88
+2022-11,Crime,drug related,32
+2022-11,Crime,fraud,11
+2022-11,Crime,human trafficking,1
+2022-11,Crime,other,92
+2022-11,Crime,runaway,2
+2022-11,Crime,sex crime,2
+2022-11,Crime,sexual assault,6
+2022-11,Crime,theft from auto,17
+2022-11,Crime,theft from person,2
+2022-11,Crime,theft from property,60
+2022-11,Crime,theft of auto,6
+2022-11,Crime,theft of parts,2
+2022-11,Crime,traffic or accident,16
+2022-11,Crime,violent crime,20
+2022-11,Dispatch,no crime report,14562
+2022-11,Match,domestic incident,2
+2022-11,Match,drug related,11
+2022-11,Match,fraud,160
+2022-11,Match,human trafficking,1
+2022-11,Match,other,324
+2022-11,Match,runaway,14
+2022-11,Match,sex crime,2
+2022-11,Match,sexual assault,23
+2022-11,Match,theft from auto,206
+2022-11,Match,theft from person,12
+2022-11,Match,theft from property,423
+2022-11,Match,theft of auto,120
+2022-11,Match,theft of parts,160
+2022-11,Match,traffic or accident,6
+2022-11,Match,violent crime,90
+2022-12,Crime,domestic incident,1
+2022-12,Crime,drug related,33
+2022-12,Crime,fraud,16
+2022-12,Crime,other,79
+2022-12,Crime,runaway,2
+2022-12,Crime,sexual assault,4
+2022-12,Crime,theft from auto,9
+2022-12,Crime,theft from person,2
+2022-12,Crime,theft from property,82
+2022-12,Crime,theft of auto,5
+2022-12,Crime,theft of parts,6
+2022-12,Crime,traffic or accident,12
+2022-12,Crime,violent crime,15
+2022-12,Dispatch,no crime report,14588
+2022-12,Match,domestic incident,1
+2022-12,Match,drug related,19
+2022-12,Match,fraud,144
+2022-12,Match,human trafficking,1
+2022-12,Match,other,320
+2022-12,Match,runaway,12
+2022-12,Match,sex crime,2
+2022-12,Match,sex materials,1
+2022-12,Match,sexual assault,12
+2022-12,Match,theft from auto,242
+2022-12,Match,theft from person,19
+2022-12,Match,theft from property,447
+2022-12,Match,theft of auto,158
+2022-12,Match,theft of parts,170
+2022-12,Match,traffic or accident,7
+2022-12,Match,violent crime,81
+2023-01,Crime,abduction,1
+2023-01,Crime,domestic incident,1
+2023-01,Crime,drug related,35
+2023-01,Crime,fraud,14
+2023-01,Crime,human trafficking,1
+2023-01,Crime,other,97
+2023-01,Crime,runaway,3
+2023-01,Crime,sex crime,2
+2023-01,Crime,sex materials,1
+2023-01,Crime,sexual assault,8
+2023-01,Crime,theft from auto,12
+2023-01,Crime,theft from person,7
+2023-01,Crime,theft from property,68
+2023-01,Crime,theft of auto,11
+2023-01,Crime,theft of parts,3
+2023-01,Crime,traffic or accident,15
+2023-01,Crime,violent crime,9
+2023-01,Dispatch,no crime report,14149
+2023-01,Match,domestic incident,6
+2023-01,Match,drug related,11
+2023-01,Match,fraud,132
+2023-01,Match,human trafficking,1
+2023-01,Match,other,334
+2023-01,Match,runaway,8
+2023-01,Match,sex crime,2
+2023-01,Match,sex materials,1
+2023-01,Match,sexual assault,20
+2023-01,Match,theft from auto,234
+2023-01,Match,theft from person,28
+2023-01,Match,theft from property,410
+2023-01,Match,theft of auto,151
+2023-01,Match,theft of parts,116
+2023-01,Match,traffic or accident,13
+2023-01,Match,violent crime,111
+2023-02,Crime,drug related,39
+2023-02,Crime,fraud,14
+2023-02,Crime,human trafficking,1
+2023-02,Crime,other,99
+2023-02,Crime,sex crime,2
+2023-02,Crime,sexual assault,5
+2023-02,Crime,theft from auto,13
+2023-02,Crime,theft from person,4
+2023-02,Crime,theft from property,74
+2023-02,Crime,theft of auto,10
+2023-02,Crime,theft of parts,5
+2023-02,Crime,traffic or accident,10
+2023-02,Crime,violent crime,15
+2023-02,Dispatch,no crime report,13511
+2023-02,Match,abduction,1
+2023-02,Match,domestic incident,1
+2023-02,Match,drug related,15
+2023-02,Match,fraud,103
+2023-02,Match,human trafficking,1
+2023-02,Match,other,296
+2023-02,Match,runaway,20
+2023-02,Match,sexual assault,14
+2023-02,Match,theft from auto,211
+2023-02,Match,theft from person,12
+2023-02,Match,theft from property,408
+2023-02,Match,theft of auto,154
+2023-02,Match,theft of parts,126
+2023-02,Match,traffic or accident,4
+2023-02,Match,violent crime,89
+2023-03,Crime,drug related,36
+2023-03,Crime,fraud,19
+2023-03,Crime,human trafficking,1
+2023-03,Crime,other,103
+2023-03,Crime,runaway,2
+2023-03,Crime,sex crime,2
+2023-03,Crime,sexual assault,10
+2023-03,Crime,theft from auto,22
+2023-03,Crime,theft from person,7
+2023-03,Crime,theft from property,80
+2023-03,Crime,theft of auto,11
+2023-03,Crime,theft of parts,5
+2023-03,Crime,traffic or accident,14
+2023-03,Crime,violent crime,17
+2023-03,Dispatch,no crime report,15432
+2023-03,Match,abduction,1
+2023-03,Match,domestic incident,1
+2023-03,Match,drug related,17
+2023-03,Match,fraud,126
+2023-03,Match,other,321
+2023-03,Match,runaway,14
+2023-03,Match,sexual assault,17
+2023-03,Match,theft from auto,191
+2023-03,Match,theft from person,28
+2023-03,Match,theft from property,426
+2023-03,Match,theft of auto,145
+2023-03,Match,theft of parts,170
+2023-03,Match,traffic or accident,7
+2023-03,Match,violent crime,96
+2023-04,Crime,drug related,44
+2023-04,Crime,fraud,8
+2023-04,Crime,other,83
+2023-04,Crime,runaway,3
+2023-04,Crime,sex crime,1
+2023-04,Crime,sex materials,2
+2023-04,Crime,sexual assault,5
+2023-04,Crime,theft from auto,14
+2023-04,Crime,theft from person,5
+2023-04,Crime,theft from property,90
+2023-04,Crime,theft of auto,10
+2023-04,Crime,theft of parts,15
+2023-04,Crime,traffic or accident,7
+2023-04,Crime,violent crime,14
+2023-04,Dispatch,no crime report,15162
+2023-04,Match,domestic incident,1
+2023-04,Match,drug related,6
+2023-04,Match,fraud,121
+2023-04,Match,other,320
+2023-04,Match,runaway,11
+2023-04,Match,sexual assault,22
+2023-04,Match,theft from auto,189
+2023-04,Match,theft from person,18
+2023-04,Match,theft from property,441
+2023-04,Match,theft of auto,131
+2023-04,Match,theft of parts,192
+2023-04,Match,traffic or accident,8
+2023-04,Match,violent crime,78
+2023-05,Crime,drug related,14
+2023-05,Crime,fraud,6
+2023-05,Crime,human trafficking,3
+2023-05,Crime,other,75
+2023-05,Crime,runaway,1
+2023-05,Crime,sex crime,6
+2023-05,Crime,sex materials,1
+2023-05,Crime,sexual assault,5
+2023-05,Crime,theft from auto,13
+2023-05,Crime,theft from person,3
+2023-05,Crime,theft from property,62
+2023-05,Crime,theft of auto,16
+2023-05,Crime,theft of parts,12
+2023-05,Crime,traffic or accident,12
+2023-05,Crime,violent crime,13
+2023-05,Dispatch,no crime report,16032
+2023-05,Match,domestic incident,3
+2023-05,Match,drug related,19
+2023-05,Match,fraud,116
+2023-05,Match,human trafficking,1
+2023-05,Match,other,356
+2023-05,Match,runaway,26
+2023-05,Match,sex crime,2
+2023-05,Match,sexual assault,16
+2023-05,Match,theft from auto,198
+2023-05,Match,theft from person,18
+2023-05,Match,theft from property,491
+2023-05,Match,theft of auto,174
+2023-05,Match,theft of parts,144
+2023-05,Match,traffic or accident,6
+2023-05,Match,violent crime,117
+2023-06,Crime,drug related,7
+2023-06,Crime,fraud,11
+2023-06,Crime,other,64
+2023-06,Crime,runaway,1
+2023-06,Crime,sexual assault,5
+2023-06,Crime,theft from auto,19
+2023-06,Crime,theft from property,78
+2023-06,Crime,theft of auto,15
+2023-06,Crime,theft of parts,10
+2023-06,Crime,traffic or accident,3
+2023-06,Crime,violent crime,5
+2023-06,Dispatch,no crime report,16163
+2023-06,Match,domestic incident,3
+2023-06,Match,drug related,11
+2023-06,Match,fraud,135
+2023-06,Match,other,270
+2023-06,Match,runaway,20
+2023-06,Match,sexual assault,15
+2023-06,Match,theft from auto,179
+2023-06,Match,theft from person,21
+2023-06,Match,theft from property,446
+2023-06,Match,theft of auto,175
+2023-06,Match,theft of parts,139
+2023-06,Match,traffic or accident,12
+2023-06,Match,violent crime,70
+2023-07,Crime,drug related,7
+2023-07,Crime,fraud,10
+2023-07,Crime,human trafficking,1
+2023-07,Crime,other,50
+2023-07,Crime,runaway,1
+2023-07,Crime,sex crime,1
+2023-07,Crime,sexual assault,4
+2023-07,Crime,theft from auto,22
+2023-07,Crime,theft from person,3
+2023-07,Crime,theft from property,80
+2023-07,Crime,theft of auto,13
+2023-07,Crime,theft of parts,2
+2023-07,Crime,traffic or accident,17
+2023-07,Crime,violent crime,9
+2023-07,Dispatch,no crime report,16714
+2023-07,Match,domestic incident,1
+2023-07,Match,drug related,2
+2023-07,Match,fraud,102
+2023-07,Match,human trafficking,2
+2023-07,Match,other,167
+2023-07,Match,runaway,12
+2023-07,Match,sex crime,1
+2023-07,Match,sexual assault,14
+2023-07,Match,theft from auto,222
+2023-07,Match,theft from person,8
+2023-07,Match,theft from property,498
+2023-07,Match,theft of auto,208
+2023-07,Match,theft of parts,107
+2023-07,Match,traffic or accident,8
+2023-07,Match,violent crime,88
+2023-08,Crime,drug related,19
+2023-08,Crime,fraud,13
+2023-08,Crime,other,23
+2023-08,Crime,sexual assault,4
+2023-08,Crime,theft from auto,38
+2023-08,Crime,theft from person,3
+2023-08,Crime,theft from property,56
+2023-08,Crime,theft of auto,27
+2023-08,Crime,theft of parts,5
+2023-08,Crime,traffic or accident,10
+2023-08,Crime,violent crime,9
+2023-08,Dispatch,no crime report,16437
+2023-08,Match,domestic incident,1
+2023-08,Match,drug related,4
+2023-08,Match,fraud,120
+2023-08,Match,human trafficking,1
+2023-08,Match,other,48
+2023-08,Match,sexual assault,25
+2023-08,Match,theft from auto,236
+2023-08,Match,theft from person,19
+2023-08,Match,theft from property,541
+2023-08,Match,theft of auto,298
+2023-08,Match,theft of parts,83
+2023-08,Match,traffic or accident,5
+2023-08,Match,violent crime,78
+2023-09,Crime,domestic incident,1
+2023-09,Crime,drug related,16
+2023-09,Crime,fraud,16
+2023-09,Crime,human trafficking,1
+2023-09,Crime,other,23
+2023-09,Crime,sex crime,2
+2023-09,Crime,sex materials,1
+2023-09,Crime,sexual assault,5
+2023-09,Crime,theft from auto,23
+2023-09,Crime,theft from person,6
+2023-09,Crime,theft from property,62
+2023-09,Crime,theft of auto,17
+2023-09,Crime,theft of parts,16
+2023-09,Crime,traffic or accident,4
+2023-09,Crime,violent crime,17
+2023-09,Dispatch,no crime report,16420
+2023-09,Match,abduction,1
+2023-09,Match,domestic incident,4
+2023-09,Match,drug related,8
+2023-09,Match,fraud,110
+2023-09,Match,other,58
+2023-09,Match,sexual assault,23
+2023-09,Match,theft from auto,250
+2023-09,Match,theft from person,19
+2023-09,Match,theft from property,514
+2023-09,Match,theft of auto,235
+2023-09,Match,theft of parts,93
+2023-09,Match,traffic or accident,6
+2023-09,Match,violent crime,82
+2023-10,Crime,domestic incident,1
+2023-10,Crime,drug related,27
+2023-10,Crime,fraud,6
+2023-10,Crime,human trafficking,1
+2023-10,Crime,other,37
+2023-10,Crime,sex crime,1
+2023-10,Crime,sex materials,2
+2023-10,Crime,sexual assault,4
+2023-10,Crime,theft from auto,26
+2023-10,Crime,theft from person,5
+2023-10,Crime,theft from property,70
+2023-10,Crime,theft of auto,16
+2023-10,Crime,theft of parts,4
+2023-10,Crime,traffic or accident,8
+2023-10,Crime,violent crime,18
+2023-10,Dispatch,no crime report,16972
+2023-10,Match,abduction,1
+2023-10,Match,domestic incident,1
+2023-10,Match,drug related,9
+2023-10,Match,fraud,127
+2023-10,Match,human trafficking,1
+2023-10,Match,other,51
+2023-10,Match,sex crime,2
+2023-10,Match,sexual assault,20
+2023-10,Match,theft from auto,264
+2023-10,Match,theft from person,11
+2023-10,Match,theft from property,455
+2023-10,Match,theft of auto,345
+2023-10,Match,theft of parts,105
+2023-10,Match,traffic or accident,8
+2023-10,Match,violent crime,83
+2023-11,Crime,drug related,20
+2023-11,Crime,fraud,9
+2023-11,Crime,human trafficking,2
+2023-11,Crime,other,29
+2023-11,Crime,sex crime,4
+2023-11,Crime,sex materials,2
+2023-11,Crime,sexual assault,6
+2023-11,Crime,theft from auto,27
+2023-11,Crime,theft from person,4
+2023-11,Crime,theft from property,99
+2023-11,Crime,theft of auto,21
+2023-11,Crime,theft of parts,8
+2023-11,Crime,traffic or accident,4
+2023-11,Crime,violent crime,9
+2023-11,Dispatch,no crime report,15693
+2023-11,Match,domestic incident,3
+2023-11,Match,drug related,7
+2023-11,Match,fraud,122
+2023-11,Match,other,71
+2023-11,Match,runaway,1
+2023-11,Match,sex materials,1
+2023-11,Match,sexual assault,16
+2023-11,Match,theft from auto,291
+2023-11,Match,theft from person,20
+2023-11,Match,theft from property,524
+2023-11,Match,theft of auto,263
+2023-11,Match,theft of parts,113
+2023-11,Match,traffic or accident,5
+2023-11,Match,violent crime,92
+2023-12,Crime,drug related,15
+2023-12,Crime,fraud,5
+2023-12,Crime,human trafficking,1
+2023-12,Crime,other,18
+2023-12,Crime,sex crime,4
+2023-12,Crime,sex materials,1
+2023-12,Crime,sexual assault,7
+2023-12,Crime,theft from auto,24
+2023-12,Crime,theft from person,2
+2023-12,Crime,theft from property,72
+2023-12,Crime,theft of auto,9
+2023-12,Crime,theft of parts,3
+2023-12,Crime,traffic or accident,7
+2023-12,Crime,violent crime,13
+2023-12,Dispatch,no crime report,16054
+2023-12,Match,domestic incident,3
+2023-12,Match,drug related,2
+2023-12,Match,fraud,132
+2023-12,Match,other,50
+2023-12,Match,runaway,2
+2023-12,Match,sex materials,1
+2023-12,Match,sexual assault,17
+2023-12,Match,theft from auto,244
+2023-12,Match,theft from person,25
+2023-12,Match,theft from property,473
+2023-12,Match,theft of auto,193
+2023-12,Match,theft of parts,144
+2023-12,Match,traffic or accident,8
+2023-12,Match,violent crime,87
+2024-01,Crime,drug related,14
+2024-01,Crime,fraud,8
+2024-01,Crime,other,34
+2024-01,Crime,sex crime,3
+2024-01,Crime,sex materials,1
+2024-01,Crime,sexual assault,6
+2024-01,Crime,theft from auto,33
+2024-01,Crime,theft from person,4
+2024-01,Crime,theft from property,69
+2024-01,Crime,theft of auto,19
+2024-01,Crime,theft of parts,5
+2024-01,Crime,traffic or accident,5
+2024-01,Crime,violent crime,18
+2024-01,Dispatch,no crime report,15386
+2024-01,Match,domestic incident,2
+2024-01,Match,drug related,5
+2024-01,Match,fraud,110
+2024-01,Match,other,70
+2024-01,Match,runaway,2
+2024-01,Match,sex crime,1
+2024-01,Match,sexual assault,11
+2024-01,Match,theft from auto,242
+2024-01,Match,theft from person,5
+2024-01,Match,theft from property,415
+2024-01,Match,theft of auto,237
+2024-01,Match,theft of parts,117
+2024-01,Match,traffic or accident,8
+2024-01,Match,violent crime,60
+2024-02,Crime,drug related,12
+2024-02,Crime,fraud,7
+2024-02,Crime,other,52
+2024-02,Crime,sex materials,1
+2024-02,Crime,sexual assault,6
+2024-02,Crime,theft from auto,27
+2024-02,Crime,theft from person,4
+2024-02,Crime,theft from property,111
+2024-02,Crime,theft of auto,12
+2024-02,Crime,theft of parts,5
+2024-02,Crime,traffic or accident,7
+2024-02,Crime,violent crime,21
+2024-02,Dispatch,no crime report,14529
+2024-02,Match,domestic incident,2
+2024-02,Match,drug related,11
+2024-02,Match,fraud,123
+2024-02,Match,other,128
+2024-02,Match,runaway,10
+2024-02,Match,sexual assault,18
+2024-02,Match,theft from auto,180
+2024-02,Match,theft from person,20
+2024-02,Match,theft from property,377
+2024-02,Match,theft of auto,199
+2024-02,Match,theft of parts,104
+2024-02,Match,traffic or accident,5
+2024-02,Match,violent crime,87
+2024-03,Crime,drug related,13
+2024-03,Crime,fraud,14
+2024-03,Crime,other,77
+2024-03,Crime,sexual assault,4
+2024-03,Crime,theft from auto,20
+2024-03,Crime,theft from person,4
+2024-03,Crime,theft from property,86
+2024-03,Crime,theft of auto,15
+2024-03,Crime,theft of parts,8
+2024-03,Crime,traffic or accident,10
+2024-03,Crime,violent crime,18
+2024-03,Dispatch,no crime report,15664
+2024-03,Match,drug related,8
+2024-03,Match,fraud,102
+2024-03,Match,human trafficking,1
+2024-03,Match,other,247
+2024-03,Match,runaway,12
+2024-03,Match,sexual assault,9
+2024-03,Match,theft from auto,187
+2024-03,Match,theft from person,16
+2024-03,Match,theft from property,411
+2024-03,Match,theft of auto,176
+2024-03,Match,theft of parts,98
+2024-03,Match,traffic or accident,7
+2024-03,Match,violent crime,85
+2024-04,Crime,drug related,6
+2024-04,Crime,fraud,7
+2024-04,Crime,other,72
+2024-04,Crime,runaway,1
+2024-04,Crime,sex crime,1
+2024-04,Crime,sexual assault,4
+2024-04,Crime,theft from auto,12
+2024-04,Crime,theft from property,69
+2024-04,Crime,theft of auto,10
+2024-04,Crime,theft of parts,4
+2024-04,Crime,traffic or accident,5
+2024-04,Crime,violent crime,10
+2024-04,Dispatch,no crime report,15544
+2024-04,Match,drug related,10
+2024-04,Match,fraud,92
+2024-04,Match,other,281
+2024-04,Match,runaway,15
+2024-04,Match,sexual assault,16
+2024-04,Match,theft from auto,186
+2024-04,Match,theft from person,13
+2024-04,Match,theft from property,409
+2024-04,Match,theft of auto,182
+2024-04,Match,theft of parts,80
+2024-04,Match,traffic or accident,3
+2024-04,Match,violent crime,76
+2024-05,Crime,domestic incident,1
+2024-05,Crime,drug related,12
+2024-05,Crime,fraud,9
+2024-05,Crime,human trafficking,2
+2024-05,Crime,other,53
+2024-05,Crime,runaway,1
+2024-05,Crime,sex crime,4
+2024-05,Crime,sexual assault,5
+2024-05,Crime,theft from auto,21
+2024-05,Crime,theft from person,2
+2024-05,Crime,theft from property,77
+2024-05,Crime,theft of auto,11
+2024-05,Crime,theft of parts,7
+2024-05,Crime,traffic or accident,4
+2024-05,Crime,violent crime,14
+2024-05,Dispatch,no crime report,17233
+2024-05,Match,abduction,1
+2024-05,Match,drug related,11
+2024-05,Match,fraud,93
+2024-05,Match,human trafficking,1
+2024-05,Match,other,242
+2024-05,Match,runaway,15
+2024-05,Match,sex crime,3
+2024-05,Match,sexual assault,13
+2024-05,Match,theft from auto,233
+2024-05,Match,theft from person,16
+2024-05,Match,theft from property,461
+2024-05,Match,theft of auto,204
+2024-05,Match,theft of parts,128
+2024-05,Match,traffic or accident,9
+2024-05,Match,violent crime,80
+2024-06,Crime,drug related,4
+2024-06,Crime,fraud,8
+2024-06,Crime,other,68
+2024-06,Crime,runaway,1
+2024-06,Crime,sex crime,3
+2024-06,Crime,sex materials,1
+2024-06,Crime,sexual assault,4
+2024-06,Crime,theft from auto,23
+2024-06,Crime,theft from person,2
+2024-06,Crime,theft from property,66
+2024-06,Crime,theft of auto,7
+2024-06,Crime,theft of parts,4
+2024-06,Crime,traffic or accident,11
+2024-06,Crime,violent crime,11
+2024-06,Dispatch,no crime report,16400
+2024-06,Match,abduction,1
+2024-06,Match,domestic incident,3
+2024-06,Match,drug related,7
+2024-06,Match,fraud,101
+2024-06,Match,other,254
+2024-06,Match,runaway,7
+2024-06,Match,sex crime,1
+2024-06,Match,sexual assault,12
+2024-06,Match,theft from auto,201
+2024-06,Match,theft from person,14
+2024-06,Match,theft from property,409
+2024-06,Match,theft of auto,165
+2024-06,Match,theft of parts,155
+2024-06,Match,traffic or accident,6
+2024-06,Match,violent crime,86
+2024-07,Crime,drug related,7
+2024-07,Crime,fraud,7
+2024-07,Crime,other,55
+2024-07,Crime,runaway,2
+2024-07,Crime,sex crime,2
+2024-07,Crime,sex materials,1
+2024-07,Crime,sexual assault,2
+2024-07,Crime,theft from auto,27
+2024-07,Crime,theft from person,2
+2024-07,Crime,theft from property,69
+2024-07,Crime,theft of auto,10
+2024-07,Crime,theft of parts,11
+2024-07,Crime,traffic or accident,6
+2024-07,Crime,violent crime,9
+2024-07,Dispatch,no crime report,16166
+2024-07,Match,domestic incident,3
+2024-07,Match,drug related,7
+2024-07,Match,fraud,103
+2024-07,Match,human trafficking,1
+2024-07,Match,other,267
+2024-07,Match,runaway,8
+2024-07,Match,sex crime,2
+2024-07,Match,sexual assault,14
+2024-07,Match,theft from auto,255
+2024-07,Match,theft from person,15
+2024-07,Match,theft from property,475
+2024-07,Match,theft of auto,201
+2024-07,Match,theft of parts,88
+2024-07,Match,traffic or accident,6
+2024-07,Match,violent crime,64
+2024-08,Crime,abduction,1
+2024-08,Crime,drug related,12
+2024-08,Crime,fraud,13
+2024-08,Crime,human trafficking,2
+2024-08,Crime,other,66
+2024-08,Crime,runaway,2
+2024-08,Crime,sex crime,10
+2024-08,Crime,sexual assault,5
+2024-08,Crime,theft from auto,12
+2024-08,Crime,theft from property,76
+2024-08,Crime,theft of auto,11
+2024-08,Crime,theft of parts,12
+2024-08,Crime,traffic or accident,10
+2024-08,Crime,violent crime,10
+2024-08,Dispatch,no crime report,16176
+2024-08,Match,domestic incident,6
+2024-08,Match,drug related,7
+2024-08,Match,fraud,91
+2024-08,Match,human trafficking,1
+2024-08,Match,other,236
+2024-08,Match,runaway,7
+2024-08,Match,sex crime,2
+2024-08,Match,sexual assault,15
+2024-08,Match,theft from auto,187
+2024-08,Match,theft from person,17
+2024-08,Match,theft from property,474
+2024-08,Match,theft of auto,155
+2024-08,Match,theft of parts,130
+2024-08,Match,traffic or accident,2
+2024-08,Match,violent crime,75
+2024-09,Crime,drug related,13
+2024-09,Crime,fraud,12
+2024-09,Crime,other,73
+2024-09,Crime,sex crime,4
+2024-09,Crime,sexual assault,5
+2024-09,Crime,theft from auto,29
+2024-09,Crime,theft from person,5
+2024-09,Crime,theft from property,81
+2024-09,Crime,theft of auto,15
+2024-09,Crime,theft of parts,5
+2024-09,Crime,traffic or accident,8
+2024-09,Crime,violent crime,7
+2024-09,Dispatch,no crime report,16265
+2024-09,Match,drug related,12
+2024-09,Match,fraud,89
+2024-09,Match,other,269
+2024-09,Match,runaway,8
+2024-09,Match,sexual assault,12
+2024-09,Match,theft from auto,195
+2024-09,Match,theft from person,15
+2024-09,Match,theft from property,441
+2024-09,Match,theft of auto,172
+2024-09,Match,theft of parts,144
+2024-09,Match,traffic or accident,11
+2024-09,Match,violent crime,72
+2024-10,Crime,drug related,11
+2024-10,Crime,fraud,16
+2024-10,Crime,other,98
+2024-10,Crime,runaway,1
+2024-10,Crime,sex crime,2
+2024-10,Crime,sexual assault,13
+2024-10,Crime,theft from auto,44
+2024-10,Crime,theft from person,3
+2024-10,Crime,theft from property,113
+2024-10,Crime,theft of auto,26
+2024-10,Crime,theft of parts,21
+2024-10,Crime,traffic or accident,9
+2024-10,Crime,violent crime,9
+2024-10,Dispatch,no crime report,16867
+2024-10,Match,abduction,1
+2024-10,Match,domestic incident,2
+2024-10,Match,drug related,6
+2024-10,Match,fraud,59
+2024-10,Match,other,235
+2024-10,Match,runaway,12
+2024-10,Match,sexual assault,12
+2024-10,Match,theft from auto,235
+2024-10,Match,theft from person,19
+2024-10,Match,theft from property,459
+2024-10,Match,theft of auto,193
+2024-10,Match,theft of parts,171
+2024-10,Match,traffic or accident,8
+2024-10,Match,violent crime,68
+2024-11,Crime,fraud,1
+2024-11,Crime,theft from property,3
+2024-11,Crime,theft of auto,1
+2024-11,Crime,theft of parts,2
