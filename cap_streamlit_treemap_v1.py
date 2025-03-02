@@ -76,7 +76,7 @@ def main():
 
         st.title("Treemap of the combined dataset of Crime Reports and Dispatches")
         
-        # Improved sidebar with descriptions
+        # Sidebar 
         st.sidebar.header("Data Selection")
         selection = st.sidebar.selectbox(
             "Select a subgroup to explore",
@@ -96,7 +96,7 @@ def main():
         - **Police Districts**: Takoma PD, does not share dispatch data, and therefore only appears in the crime reports dataset. 
         - **Crime Type**: 
         - **Priority**: Is only present in the dispatch dataset. Therefore will not appear in the crime reports dataset. 
-        - **Police Agency**:
+        - **Police Agency**: There are 4 police agencies, MCPD, Takoma Park PD, Rockville PD, and Gaithersburg PD.
         """)
 
         st.plotly_chart(treemap(data_loader(), selection))
