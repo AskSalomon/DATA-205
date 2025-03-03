@@ -2,10 +2,13 @@ pandas
 numpy
 altair
 logging
+plotly
 plotly.graph_objects
 pathlib
+matplotlib
 matplotlib.pyplot
 matplotlib_venn
+sklearn
 sklearn.metrics
 sklearn.linear_model
 altair_tiles
