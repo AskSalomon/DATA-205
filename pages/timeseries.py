@@ -16,9 +16,9 @@ def data_loader():
         df_age_cn1 = pd.read_csv('https://raw.githubusercontent.com/AskSalomon/DATA-205/refs/heads/main/capstone_streamlit_linemap_agecn1.csv')
         df_cn1_cn2 = pd.read_csv('https://raw.githubusercontent.com/AskSalomon/DATA-205/refs/heads/main/capstone_streamlit_linemap_cn1cn2.csv')
         df_match_cat = pd.read_csv('https://raw.githubusercontent.com/AskSalomon/DATA-205/refs/heads/main/capstone_streamlit_linemap_catsum.csv')
-     
+        df_cn2 = pd.read_csv("https://raw.githubusercontent.com/AskSalomon/DATA-205/refs/heads/main/capstone_streamlit_linemap_cn2.csv")
 
-        return df_age_cn1,df_cn1_cn2,df_match_cat, # df_match_victims,df_match_age,
+        return df_age_cn1, df_cn1_cn2, df_match_cat, df_cn2
     except Exception as e:
         logger.error(f'error in loading: {str(e)}')
         raise e
@@ -142,8 +142,8 @@ def get_annotation_data(linegraph_y_column):
         ])
         
         Crime_Name2_annotations = pd.DataFrame([
-            {'month_year': pd.Timestamp('2023-01'), 'note': 'Peak'},
-            {'month_year': pd.Timestamp('2023-02'), 'note': 'Low'}
+            {'month_year': pd.Timestamp('2023-05'), 'note': 'Data dip start'},
+            {'month_year': pd.Timestamp('2024-04'), 'note': 'Data dip end'}
         ])
         
         Agency_annotations = pd.DataFrame([
@@ -183,49 +183,50 @@ def main():
             initial_sidebar_state="expanded"
         )
         # DATASET LOADER 
-        df_age_cn1, df_cn1_cn2, df_match_cat = data_loader()
+        df_age_cn1, df_cn1_cn2, df_match_cat, df_cn2 = data_loader()
         
         # Dictionary because this got complicated 
         LINEGRAPH = {
-            'Agency and Crime Type 1': df_age_cn1,
-            'Crime Type 1 & 2': df_cn1_cn2, 
-            'Match and Category': df_match_cat
+            'Agency': df_age_cn1,
+            'Crime Type 1': df_cn1_cn2, 
+            'Match Status': df_match_cat,
+            'Crime Name 2': df_cn2  # Added the new dataset
         }
 
         # SIDEBAR
         st.sidebar.markdown("""
         ## About this visualistion
-
-        """)
-
-        # BODY 
-        st.markdown(
-        """
+        This timeseries displays the levels of the chosen columns over time                    
+       
+        Click the 'show annotations buttons to see aditional insights into the graphic'
         
         """
         )
-        
         st.sidebar.header('First Select Data Set')
         selected_linegraph_key = st.sidebar.selectbox(
-            "Select from one of these 3 options",
+            "Select from one of these 4 options",  # Updated to reflect 4 options
             options=list(LINEGRAPH.keys()),
         )
-        
+      
         selected_linegraph_dataset = LINEGRAPH[selected_linegraph_key]
         
         if 'month_year' in selected_linegraph_dataset.columns and not pd.api.types.is_datetime64_any_dtype(selected_linegraph_dataset['month_year']):
             selected_linegraph_dataset['month_year'] = pd.to_datetime(selected_linegraph_dataset['month_year'])
         
 
-        if selected_linegraph_key == 'Agency and Crime Type 1':
+        if selected_linegraph_key == 'Agency':
             selected_linegraph_first_value = 'Agency'
             linegraph_y_values = 'Crime Counts by Agency'
             color_linegraph = 'Agency'
-        elif selected_linegraph_key == 'Crime Type 1 & 2':
+        elif selected_linegraph_key == 'Crime Type 1':
             selected_linegraph_first_value = 'Crime Name1'
             linegraph_y_values = 'Crime Counts by Crime Type'
             color_linegraph = 'Crime Type'
-        else:  # 'Match and Category'
+        elif selected_linegraph_key == 'Crime Name 2':  # Added new condition for Crime Name 2
+            selected_linegraph_first_value = 'Crime Name2'
+            linegraph_y_values = 'Crime Counts by Crime Name 2'
+            color_linegraph = 'Crime Name 2'
+        else:  # 'Match Status'
             selected_linegraph_first_value = 'match_status'
             linegraph_y_values = 'Crime Counts by Match Status'
             color_linegraph = 'Match Status'
@@ -248,7 +249,8 @@ def main():
             st.warning(f"No {selected_linegraph_first_value} values selected. Showing all data.")
 
         show_annotations = st.sidebar.checkbox("Show annotations", value=False)
-  
+      
+
         annotation_data = None
         if show_annotations:
             annotation_data = get_annotation_data(selected_linegraph_first_value)

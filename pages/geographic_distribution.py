@@ -107,6 +107,8 @@ def create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col, ge
         lr = LinearRegression()
         lr.fit(X, y)
         r2 = r2_score(y, lr.predict(X))
+        slope = lr.coef_[0]  # Get the slope coefficient
+        intercept = lr.intercept_  # Get the intercept
         
         # Create regression line
         x_range = np.linspace(X.min(), X.max(), 100).reshape(-1, 1)
@@ -122,19 +124,35 @@ def create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col, ge
             y='y'
         )
         
-        # R² 
+        # R² annotation
         r_2_annotation = alt.Chart(pd.DataFrame([{
             'x': gdf[dispatch_col].min(),
             'y': gdf[crime_col].max(),
             'text': f'R² = {r2:.3f}'
         }])).mark_text(
-            color='red',
+            color='black',
             fontSize=16,
             dx=5,
             dy=5  
         ).encode(
             x=alt.value(50),
             y=alt.value(25),
+            text='text:N'
+        )
+        
+        # Slope annotation
+        slope_annotation = alt.Chart(pd.DataFrame([{
+            'x': gdf[dispatch_col].min(),
+            'y': gdf[crime_col].max(),
+            'text': f'm = {slope:.3f}'
+        }])).mark_text(
+            color='black',
+            fontSize=16,
+            dx=5,
+            dy=5  
+        ).encode(
+            x=alt.value(50),
+            y=alt.value(50),  # Position below the R² annotation
             text='text:N'
         )
 
@@ -170,7 +188,7 @@ def create_linked_visualization(gdf, selected_crime, crime_col, dispatch_col, ge
             title="Geographic Distribution"
         )
 
-        top_chart = alt.layer(scatter, regression, r_2_annotation)
+        top_chart = alt.layer(scatter, regression, r_2_annotation, slope_annotation)
         bottom_chart = map_chart
         final_viz = alt.vconcat(
             bottom_chart,
@@ -228,7 +246,7 @@ def main():
             gdf = tppd_remove(gdf)
             
         # Filter for Police districts
-        remove_police = st.sidebar.checkbox("Remove districts supervised by Police", value=False)
+        remove_police = st.sidebar.checkbox("Remove tracts with Police Stations", value=False)
         if remove_police:
             gdf = police_remove(gdf)
         
@@ -239,7 +257,15 @@ def main():
         - **White areas**: Balanced ratio
         - :red[**Red areas**]: More dispatches than crime reports
                             
-        This is a visualisation of the ratio of crime reports to dispatch reports, it is therefore not a visualisations of the number of each or the presence of criminal activty. 
+        This is a visualisation of the ratio of crime reports to dispatch reports, it is therefore not a visualisations of the number of each or the presence of criminal activty.
+        
+        The number of crime reports and the number of dispatch incidents along the x and y axis of the scatterplot has not been normalized, 
+                            
+        **Why you may want to use the filters:**                
+        You can use the filter buttons to see the effect of including or not including Takoma Park and tracts with police stations on the analysis.
+        - Takoma Park: As is clearly evident when looking at drug related incidents, Takoma Park does not share dispatch data. 
+        - Police Station Tracts: Some dispatches and Crime reports are located at police stations from walk inns or for other causes, these might also skew the data.
+        
 
         Use the brush tool to select areas in either view to highlight corresponding regions.
 

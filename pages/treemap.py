@@ -94,9 +94,9 @@ def main():
         It is therefore useful to explore the data to understand the ways in which they are and are not related. 
         ### What to look for 
         - **Police Districts**: Takoma PD, does not share dispatch data, and therefore only appears in the crime reports dataset. 
-        - **Crime Type**: 
+        - **Crime Type**: The crime type column is only present in the crime report data.
         - **Priority**: Is only present in the dispatch dataset. Therefore will not appear in the crime reports dataset. 
-        - **Police Agency**: There are 4 police agencies, MCPD, Takoma Park PD, Rockville PD, and Gaithersburg PD.
+        - **Police Agency**: There are 4 police agencies, MCPD, Takoma Park PD, Rockville PD, and Gaithersburg PD. Police agency 
         """)
 
         st.plotly_chart(treemap(data_loader(), selection))

@@ -1,132 +1,197 @@
 import streamlit as st
 import pandas as pd
-#Page 2: Streamlit DataFrame with Colored Column Names 
+import matplotlib.pyplot as plt
+from matplotlib_venn import venn3, venn3_circles
+import numpy as np
 
-transformed_list= [ 
-        'Agency',
-        'Place', 
-        'Type Change',
-        'match_status', 
-        'hour',
-        'month',
-        'day',
-        'year',
-        'category'
-        ]
+# List definitions
+transformed_list = [ 
+    'Agency',
+    'Place', 
+    'Type Change',
+    'match_status', 
+    'hour',
+    'month',
+    'day',
+    'year',
+    'category'
+]
 merged_list = [ 
-        'long', 'lat', 'PRA', 'ID',
-        'Start_Time', 'Police_district_Number', 
-        'category'
-        ]
-join_list= ['Incident_ID']
-    # original datasets: dispatch, crime, census
+    'long', 'lat', 'PRA', 'ID',
+    'Start_Time', 'Police_district_Number', 
+    'category'
+]
+join_list = ['Incident_ID']
+# original datasets: dispatch, crime, census
 census_list = ['population','STATEFP', 'COUNTYFP', 'tract', 'GEOID', 'NAME', 'NAMELSAD', 'MTFCC',
-       'FUNCSTAT', 'ALAND', 'AWATER', 'INTPTLAT', 'INTPTLON', 'geometry']
+   'FUNCSTAT', 'ALAND', 'AWATER', 'INTPTLAT', 'INTPTLON', 'geometry']
 dispatch_list = ['Incident_ID', 'Crime Reports', 'Crash Reports', 'Start Time',
-       'End Time', 'Priority', 'Initial Type', 'Close Type', 'Address', 'City',
-       'State', 'Zip', 'Longitude', 'Latitude', 'Police District Number',
-       'Beat', 'PRA', 'CallTime CallRoute', 'Calltime Dispatch',
-       'Calltime Arrive', 'Calltime Cleared', 'CallRoute Dispatch',
-       'Dispatch Arrive', 'Arrive Cleared', 'Disposition Desc', 'Location']
+   'End Time', 'Priority', 'Initial Type', 'Close Type', 'Address', 'City',
+   'State', 'Zip', 'Longitude', 'Latitude', 'Police District Number',
+   'Beat', 'PRA', 'CallTime CallRoute', 'Calltime Dispatch',
+   'Calltime Arrive', 'Calltime Cleared', 'CallRoute Dispatch',
+   'Dispatch Arrive', 'Arrive Cleared', 'Disposition Desc', 'Location']
 crime_list = ['Incident ID', 'Offence Code', 'CR Number', 'Dispatch Date / Time',
-       'Start_Date_Time', 'End_Date_Time', 'NIBRS Code', 'Victims',
-       'Crime Name1', 'Crime Name2', 'Crime Name3', 'Police District Name',
-       'Block Address', 'City', 'State', 'Zip Code', 'Agency', 'Place',
-       'Sector', 'Beat', 'PRA', 'Address Number', 'Street Prefix',
-       'Street Name', 'Street Suffix', 'Street Type', 'Latitude', 'Longitude',
-       'Police District Number', 'Location']
-    # created datasets: treemap, choropleth, line
+   'Start_Date_Time', 'End_Date_Time', 'NIBRS Code', 'Victims',
+   'Crime Name1', 'Crime Name2', 'Crime Name3', 'Police District Name',
+   'Block Address', 'City', 'State', 'Zip Code', 'Agency', 'Place',
+   'Sector', 'Beat', 'PRA', 'Address Number', 'Street Prefix',
+   'Street Name', 'Street Suffix', 'Street Type', 'Latitude', 'Longitude',
+   'Police District Number', 'Location']
+# created datasets: treemap, choropleth, line
 joined_list = ['Offence Code',  'Victims', 'Crime Name1', 'Crime Name2',
-       'Agency', 'Place',  'Priority', 'Type Change',
-       'long', 'lat', 'PRA', 'Incident_ID', 'match_status',  
-       'Start_Time', 'Police_district_Number', 'hour', 'month', 'day', 'category']
+   'Agency', 'Place',  'Priority', 'Type Change',
+   'long', 'lat', 'PRA', 'Incident_ID', 'match_status',  
+   'Start_Time', 'Police_district_Number', 'hour', 'month', 'day', 'category']
 choropleth1_list = ['category','population', 'tract','GEOID', 'MTFCC', 'FUNCSTAT', 'ALAND',
-       'AWATER', 'INTPTLAT', 'INTPTLON', 'geometry']
+   'AWATER', 'INTPTLAT', 'INTPTLON', 'geometry']
 choropleth2_list = ['category','population', 'tract','GEOID', 'MTFCC', 'FUNCSTAT', 'ALAND',
-       'AWATER', 'INTPTLAT', 'INTPTLON', 'geometry']
+   'AWATER', 'INTPTLAT', 'INTPTLON', 'geometry']
 line_list = ['ID', 'Start_Time', 'Police_district_Number', 'category', 'match_status','year',
-         'month','Crime Name1', 'Crime Name2', 'Victims','Agency']
+     'month','Crime Name1', 'Crime Name2', 'Victims','Agency']
 treemap_list = ['Agency', 'Priority', 'match_status', 'Police_district_Number',
-       'category']
-    # list of datasets
+   'category']
+# list of datasets
 datasets_list = ['dispatch', 'crime', 'joined', 'treemap', 'choropleth1','choropleth2','line', 'census']
 
 
 def data_loader():
     # Load the data
-    dispatch = pd.read_csv("https://raw.githubusercontent.com/AskSalomon/DATA-205/refs/heads/main/capstone_streamlit_dispatch_short.csv")
-    crime = pd.read_csv("https://raw.githubusercontent.com/AskSalomon/DATA-205/refs/heads/main/capstone_streamlit_crime_short.csv")
-    census = pd.read_csv("https://raw.githubusercontent.com/AskSalomon/DATA-205/refs/heads/main/capstone_streamlit_census_short.csv")
-    joined = pd.read_csv("https://raw.githubusercontent.com/AskSalomon/DATA-205/refs/heads/main/capstone_streamlit_joined_short.csv")
-    treemap = pd.read_csv("https://raw.githubusercontent.com/AskSalomon/DATA-205/refs/heads/main/capstone_streamlit_treemap_short.csv")
-    choropleth1 = pd.read_csv("https://raw.githubusercontent.com/AskSalomon/DATA-205/refs/heads/main/capstone_streamlit_choropleth1_short.csv")
-    choropleth2 = pd.read_csv("https://raw.githubusercontent.com/AskSalomon/DATA-205/refs/heads/main/capstone_streamlit_choropleth2_short.csv")
-    line = pd.read_csv("https://raw.githubusercontent.com/AskSalomon/DATA-205/refs/heads/main/capstone_streamlit_line_short.csv")
+    treemap = pd.read_csv('/Users/gimle/DATA-205/capstone_streamlit_treemap_short.csv')
+    joined = pd.read_csv('/Users/gimle/DATA-205/capstone_streamlit_joined_short.csv')
+    choropleth1 = pd.read_csv('/Users/gimle/DATA-205/capstone_streamlit_choropleth1_short.csv')
+    choropleth2 = pd.read_csv('/Users/gimle/DATA-205/capstone_streamlit_choropleth2_short.csv')
+    census  = pd.read_csv('/Users/gimle/DATA-205/capstone_streamlit_census_short.csv')
+    dispatch = pd.read_csv('/Users/gimle/DATA-205/capstone_streamlit_dispatch_short.csv')
+    crime = pd.read_csv('/Users/gimle/DATA-205/capstone_streamlit_crime_short.csv')
+    line = pd.read_csv('/Users/gimle/DATA-205/capstone_streamlit_linemap_short.csv')
     return dispatch, crime, census, joined, treemap, choropleth1, choropleth2, line 
     
 
-def color_columns(selected_dataset, transformed_list, merged_list, join_list, census_list, dispatch_list, crime_list):
-    # Maps colours to the dataframes
-    column_colors = {}
+def color_columns(df, transformed_list, merged_list, join_list, census_list, dispatch_list, crime_list):
+    # Create a list of CSS properties for each column
+    styles = []
     
     for col in df.columns:
         if col in transformed_list:
-            column_colors[col] = 'purple'
+            styles.append({'selector': f'th.col{df.columns.get_loc(col)}', 
+                           'props': [('background-color', 'purple'), ('color', 'white')]})
         elif col in merged_list:
-            column_colors[col] = 'green'
-        elif col in census_list:
-            column_colors[col] = 'red'
-        elif col in crime_list:
-            column_colors[col] = 'blue'
-        elif col in dispatch_list:
-            column_colors[col] = 'yellow'
+            styles.append({'selector': f'th.col{df.columns.get_loc(col)}', 
+                           'props': [('background-color', 'green'), ('color', 'white')]})
         elif col in join_list:
-            column_colors[col] = 'orange'
+            styles.append({'selector': f'th.col{df.columns.get_loc(col)}', 
+                           'props': [('background-color', 'orange'), ('color', 'black')]})
+        elif col in census_list:
+            styles.append({'selector': f'th.col{df.columns.get_loc(col)}', 
+                           'props': [('background-color', 'red'), ('color', 'white')]})
+        elif col in dispatch_list:
+            styles.append({'selector': f'th.col{df.columns.get_loc(col)}', 
+                           'props': [('background-color', 'yellow'), ('color', 'black')]})
+        elif col in crime_list:
+            styles.append({'selector': f'th.col{df.columns.get_loc(col)}', 
+                           'props': [('background-color', 'blue'), ('color', 'white')]})
     
+    # Apply styles
+    return df.style.set_table_styles(styles)
+
+
+def create_venn_diagram():
+    # Create a figure
+    fig, ax = plt.subplots(figsize=(10, 6))
     
-    # Colouring the columns
-    styles = [
-        {'selector': f'th.col_heading:nth-child({df.columns.get_loc(col) + 1})',
-         'props': f'color: {color};'}
-        for col, color in column_colors.items()
+
+    colors = {
+        'dispatch': 'yellow',  
+        'crime': 'blue',       
+        'census': 'red',       
+        'overlap': 'green'     
+    }
+    
+
+    v = venn3(
+        subsets=(1, 1, 1, 1, 1, 1, 1),
+        set_labels=('Dispatch', 'Crime', 'Census'),
+        ax=ax,
+        set_colors=(colors['dispatch'], colors['crime'], colors['census'])
+    )
+    
+    for text in v.set_labels:
+        text.set_fontsize(14)
+        text.set_fontweight('bold')
+    
+ 
+    # A: Dispatch only
+    v.get_label_by_id('100').set_text('Priority\nClose Type')
+    
+    # B: Crime only  
+    v.get_label_by_id('010').set_text('Agency\nPlace\nCrime Name')
+    
+    # C: Census only
+    v.get_label_by_id('001').set_text('Population\nGeometry')
+    
+    # A&B: Dispatch & Crime
+    v.get_label_by_id('110').set_text('Incident_ID')
+    v.get_patch_by_id('110').set_color('orange')  # Join column color
+    
+    # A&C: Dispatch & Census
+    v.get_label_by_id('101').set_text('')
+    
+    # B&C: Crime & Census
+    v.get_label_by_id('011').set_text('Geometry Overlay')
+    
+    # A&B&C: All three
+    v.get_label_by_id('111').set_text('Derived Data\nhour, month, day\ncategory')
+    v.get_patch_by_id('111').set_color('purple')  # Transformed columns
+    
+
+    legend_elements = [
+        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='yellow', markersize=15, label='Dispatch Columns'),
+        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='blue', markersize=15, label='Crime Columns'),
+        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='red', markersize=15, label='Census Columns'),
+        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='orange', markersize=15, label='Join Columns'),
+        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='green', markersize=15, label='Merged Columns'),
+        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='purple', markersize=15, label='Transformed Columns')
     ]
     
-    # Applying colour 
+    ax.legend(handles=legend_elements, loc='upper center', bbox_to_anchor=(0.5, -0.05), ncol=3)
+    
+    plt.tight_layout()
+    
+    return fig
 
-    return selected_dataset.style.set_table_styles(styles)
 
 def explainer(selected_dataset): 
-
     speech_dictionary = {
         'dispatch':
         """
         The dispatch dataset contains the following columns:
-        - :[**Incident_ID**]: Unique identifier for each incident 
-        - :[**Crime Reports**]: Another identifier connecting with crime reports
-        - :[**Crash Reports**]: Identifier for crash reports
-        - :[**Start Time**]: Time when the incident was reported
-        - :[**End Time**]: Time when the dispatch was resolved
-        - :[**Priority**]: Priority of the dispatch
-        - [**Initial Type**]: Initial type of the dispatch
-        - [**Close Type**]: Final type of the dispatch
-        - [**Address**]: Location of the dispatch
-        - [**City**]: City where the dispatch occurred
-        - [**State**]: State where the dispatch occurred
-        - [**Zip**]: Zip code of the dispatch
-        - [**Longitude**]: Longitude of the dispatch
-        - [**Latitude**]: Latitude of the dispatch
-        - [**Police District Number**: Identifier for the police district
-        - [**Beat**]: Identifier for the beat
-        - [**PRA**]: Identifier for the PRA  
-        - [**CallTime CallRoute**]: Time when the call was routed
-        - [**Calltime Dispatch**]: Time when the call was dispatched
-        - [**Calltime Arrive**]: Time when the call arrived
-        - [**Calltime Cleared**]: Time when the call was cleared
-        - [**CallRoute Dispatch**]: Route of the call dispatch
-        - [**Dispatch Arrive**]: Time when the dispatch arrived
-        - [**Arrive Cleared**]: Time when the arrival was cleared
-        - [**Disposition Desc**]: Description of the disposition
-        - [**Location**]: Location of the dispatch
+        - **Incident_ID**: Unique identifier for each incident 
+        - **Crime Reports**: Another identifier connecting with crime reports
+        - **Crash Reports**: Identifier for crash reports
+        - **Start Time**: Time when the incident was reported
+        - **End Time**: Time when the dispatch was resolved
+        - **Priority**: Priority of the dispatch
+        - **Initial Type**: Initial type of the dispatch
+        - **Close Type**: Final type of the dispatch
+        - **Address**: Location of the dispatch
+        - **City**: City where the dispatch occurred
+        - **State**: State where the dispatch occurred
+        - **Zip**: Zip code of the dispatch
+        - **Longitude**: Longitude of the dispatch
+        - **Latitude**: Latitude of the dispatch
+        - **Police District Number**: Identifier for the police district
+        - **Beat**: Identifier for the beat
+        - **PRA**: Identifier for the PRA  
+        - **CallTime CallRoute**: Time when the call was routed
+        - **Calltime Dispatch**: Time when the call was dispatched
+        - **Calltime Arrive**: Time when the call arrived
+        - **Calltime Cleared**: Time when the call was cleared
+        - **CallRoute Dispatch**: Route of the call dispatch
+        - **Dispatch Arrive**: Time when the dispatch arrived
+        - **Arrive Cleared**: Time when the arrival was cleared
+        - **Disposition Desc**: Description of the disposition
+        - **Location**: Location of the dispatch
         """,
         'crime':
         """
@@ -242,42 +307,44 @@ def explainer(selected_dataset):
         'census':  
         """
         The census dataset contains the following columns:
-        - :grey[**population**]: Population of the census tract
-        - :grey[**STATEFP**]: State FIPS code
-        - :grey[**COUNTYFP**]: County FIPS code
-        - :grey[**tract**]: Tract number
-        - :grey[**GEOID**]: GEOID of the census tract
-        - :grey[**NAME**]: Name of the census tract
-        - :grey[**NAMELSAD**]: Name and legal/statistical area description of the census tract
-        - :grey[**MTFCC**]: MTFCC of the census tract
-        - :grey[**FUNCSTAT**]: Functional status of the census tract
-        - :grey[**ALAND**]: Land area of the census tract
-        - :grey[**AWATER**]: Water area of the census tract
-        - :grey[**INTPTLAT**]: Latitude of the census tract
-        - :grey[**INTPTLON**]: Longitude of the census tract
-        - :grey[**geometry**]: Geometry of the census tract
+        - **population**: Population of the census tract
+        - **STATEFP**: State FIPS code
+        - **COUNTYFP**: County FIPS code
+        - **tract**: Tract number
+        - **GEOID**: GEOID of the census tract
+        - **NAME**: Name of the census tract
+        - **NAMELSAD**: Name and legal/statistical area description of the census tract
+        - **MTFCC**: MTFCC of the census tract
+        - **FUNCSTAT**: Functional status of the census tract
+        - **ALAND**: Land area of the census tract
+        - **AWATER**: Water area of the census tract
+        - **INTPTLAT**: Latitude of the census tract
+        - **INTPTLON**: Longitude of the census tract
+        - **geometry**: Geometry of the census tract
         """
     }
 
     speech = speech_dictionary[selected_dataset]
     return speech
-    
-    
 
 
 def main(): 
-  
-    st.title("How the datasets were transformed, merged, and carried over")
+    st.title("Data Breakdown")
+    
+ 
+ 
+
+    
     st.sidebar.markdown(
     """
     This page shows which columns of the original datasets have been transformed, merged or carried over from the three parent datasets.
     The color coding is as follows:
-    - **Purple**: Transformed columns
-    - **Green**: Merged columns, between dispatch and crime
-    - **Grey**: For Census columns
-    - **Blue**: For Crime columns  
-    - **Red**: For Dispatch columns
-    - **Orange**: Is the colour of the join column 
+    - :violet[**Purple**]: Transformed columns
+    - :green[**Green**]: Merged columns, between dispatch and crime
+    - :red[**Red**]: For Census columns
+    - :blue[**Blue**]: For Crime columns  
+    - :orange[**Orange**]: For Dispatch columns
+    - :gray[**Gray**]: Is the colour of the join column 
     """
     )
     dispatch, crime, census, joined, treemap, choropleth1, choropleth2, line = data_loader()
@@ -292,7 +359,6 @@ def main():
         'line': line
     }
 
-
     st.sidebar.header("Select a dataset to explore")
     selected_dataset = st.sidebar.selectbox(
         "Select a subgroup to explore",
@@ -300,15 +366,19 @@ def main():
     )
 
     current_df = dataset_mapping[selected_dataset]
-    styled_df = color_columns(current_df)
-
-
+    styled_df = color_columns(
+        current_df, 
+        transformed_list, 
+        merged_list, 
+        join_list, 
+        census_list, 
+        dispatch_list, 
+        crime_list
+    )
+    st.pyplot(create_venn_diagram())
     st.dataframe(styled_df)
+    
     st.markdown(explainer(selected_dataset))
+
 if __name__ == "__main__":
     main()
-
-
-
-
-
