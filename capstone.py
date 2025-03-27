@@ -1,8 +1,5 @@
 import streamlit as st
-import pandas as pd
-import plotly.express as px
-from PIL import Image
-import base64
+
 
 # Set page configuration
 st.set_page_config(
